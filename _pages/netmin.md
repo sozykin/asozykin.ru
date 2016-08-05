@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Вопросы в экзамену (netmin)
+title: Вопросы к экзамену (netmin)
 permalink: /courses/netmin
 ---
 

@@ -51,5 +51,5 @@ permalink: /courses/networks
 ## Вопросы к экзамену
 
 1. [netmin](/courses/netmin).
-2. netquest
+2. [netquest](/courses/netquest).
 3. Пакеты.

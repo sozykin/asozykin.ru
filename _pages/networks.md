@@ -55,3 +55,5 @@ permalink: /courses/networks
 1. [netmin](/courses/netmin).
 2. [netquest](/courses/netquest).
 3. [Пакеты](/courses/packets).
+
+[Рекомендации по подготовке к экзамену](/courses/networks_exam).

@@ -4,7 +4,11 @@
   {% include head.html %}
 
   <body>
-
+    
+    {% if jekyll.environment == 'production' %}
+        {% include yandexmetrika.html %}
+    {% endif %}
+ 
     {% include header.html %}
 
     <div class="page-content">

@@ -22,7 +22,7 @@ layout: default
           {{ post.excerpt | number_of_words }} 
         {% endcapture %} 
         {% if excerpt_words != content_words %}
-        <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Читать дальше <i class="fa fa-arrow-circle-right"></i></a>
+        <p><a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button">Читать дальше <i class="fa fa-arrow-circle-right"></i></a>
         </p>
         {% endif %}
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Problem-based learning в курсе Параллельные вычисления"
 date:   2016-09-10 19:00:00 +0500
 categories: education
+comments: true
 ---
 
 ![Картинка суперкомпьютер УРАН](/assets/uran.jpg)

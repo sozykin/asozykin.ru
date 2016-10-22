@@ -3,6 +3,7 @@ layout: post
 title:  "Школа по Software Engineering для PhD студентов в Aalborg University"
 date:   2016-08-15 10:00:00 +0500
 categories: news
+comments: true
 ---
 
 ![Картинка школы в AAU](/assets/aau_school.jpg)

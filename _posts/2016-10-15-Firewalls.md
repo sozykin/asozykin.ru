@@ -3,6 +3,7 @@ layout: post
 title:  "Межсетевые экраны"
 date:   2016-10-15 06:00:00 +0500
 categories: computer_networks
+comments: true
 ---
 Текстовый вариант видеолекции на YouTube по межсетевым экранам.
 

@@ -19,6 +19,6 @@ include: ['_pages']
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
+gems: [jekyll-feed, jekyll-sitemap, jekyll-paginate]
+paginate: 10
+paginate_path: "/blog/page:num/"

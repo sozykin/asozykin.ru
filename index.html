@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
 
@@ -28,7 +28,22 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Назад</a>
+  {% else %}
+    <span class="previous">Назад</span>
+  {% endif %}
+  <span class="page_number ">Страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Вперед</a>
+  {% else %}
+    <span class="next ">Вперед</span>
+  {% endif %}
+</div>
+  <br/>
   <p class="rss-subscribe">Подпишитесь <a href="{{ "/feed.xml" | prepend: site.baseurl }}">на RSS</a></p>
 
 </div>

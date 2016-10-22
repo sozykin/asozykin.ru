@@ -6,7 +6,8 @@ categories: computer_networks
 ---
 Текстовый вариант видеолекции на YouTube по межсетевым экранам.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9r6z9qggSIc" frameborder="0" allowfullscreen></iframe>
+{% include youtube-player.html id="9r6z9qggSIc" %}
+
 
 Межсетевой экран - это устройство, которое отделяет разные компьютерные сети друг от друга. Другое название межсетевого экрана - брандмауэр или firewall.
 

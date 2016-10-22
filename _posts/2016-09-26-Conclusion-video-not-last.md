@@ -7,7 +7,7 @@ categories: computer_networks
 
 Я записал заключительное видео для курса по компьютерным сетям начального уровня.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GnEuajcKU1U" frameborder="0" allowfullscreen></iframe>
+{% include youtube-player.html id="GnEuajcKU1U" %}
 
 Но лекции по сетям на этом не закончатся!
 

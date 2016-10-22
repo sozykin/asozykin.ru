@@ -8,18 +8,13 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d.%m.%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
-  <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-  <script src="//yastatic.net/share2/share.js" async="async"></script>
-  <div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter,linkedin,telegram" data-counter=""></div>
+  {% include social.html %}
 
   <div class="post-content" itemprop="articleBody">
     <br/>
     {{ content }}
   </div>
 
-  <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-  <script src="//yastatic.net/share2/share.js" async="async"></script>
-  <div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter,linkedin,telegram" data-counter=""></div>
-
+  {% include social.html %}
 
 </article>

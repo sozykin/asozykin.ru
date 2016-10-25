@@ -40,6 +40,12 @@ permalink: /courses/networks
 
 [Презентации видеолекций](https://yadi.sk/d/I8TOPyldkM3oZ).
 
+## Результаты пятиминуток осень 2016 г.
+
+1. [КН-201](https://docs.google.com/spreadsheets/d/1gs8hCjd-yXXekynz0rmXh3R_4P0qv5lIosy4oSRdtwo/edit?usp=sharing).
+2. [КН-202](https://docs.google.com/spreadsheets/d/1rAI14JtM2RPCRXmbToYYl0EA-eQqXLHhKwFb0UR5BqE/edit?usp=sharing).
+3. [ФИИТ-201](https://docs.google.com/spreadsheets/d/1-rgDbyQwR2j5CNGC9a6H0FzarlBI12WqQTE-gbO3ddk/edit?usp=sharing).
+
 ## Рекомендуемая литература
 
 1. Э.Таненбаум, Д.Уэзеролл. Компьютерные сети.

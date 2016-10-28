@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Онлайн курс по компьютерным сетям
+title: Онлайн курс "Компьютерные сети"
 permalink: /courses/networks_online
 ---
 

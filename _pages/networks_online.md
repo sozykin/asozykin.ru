@@ -37,7 +37,8 @@ permalink: /courses/networks_online
 4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A).
 5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
 6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc).
-7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec)
+7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec).
+8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M).
 
 ### Сетевой уровень
 

@@ -3,7 +3,8 @@ layout: page
 title: Публикации
 permalink: /publications/
 ---
-
+1. Arseny Krasnobaev and Andrey Sozykin. [An Overview of Techniques for Cardiac Left Ventricle Segmentation on Short-Axis MRI](http://www.itm-conferences.org/articles/itmconf/abs/2016/03/itmconf_icbda2016_01003/itmconf_icbda2016_01003.html) // ITM Web of Conferences, Vol. 8, 2016.
+1. Andrey Sozykin, Natalia Neustroeva, Vladimir Baidakov, Sergey Protsenko, Vasiliy Brukhanov, Konstantin Ushenin, Arsenii Krasnobaev. [Post-Processing the Results of Metastable States Molecular Dynamics Simulation](http://ceur-ws.org/Vol-1729/paper-02.pdf) // Proceedings of the 2nd Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists. CEUR Workshop Proceedings, Volume 1729, 2016, pages 11-16.
 1. Ushenin, K.S.,  Kuklin, E.Y.,  Byordov, D.A.,  Sozykin, A.V. [Computational workflow system for simulation of living systems on supercomputers](http://ceur-ws.org/Vol-1576/101.pdf) // 10th Annual International Scientific Conference on Parallel Computing Technologies, PCT 2016; Arkhangelsk; Russian Federation. CEUR Workshop Proceedings, Volume 1576, 2016, pages 729-735.
 2. Sozykin, A. ,  Chernoskutov, M.,  Koshelev, A.,  Zverev, V.,  Ushenin, K.,  Solovyova, O. [Teaching heart modeling and simulation on parallel computing systems](http://link.springer.com/chapter/10.1007%2F978-3-319-27308-2_9) // Lecture Notes in Computer Science, volume 9523, 2015, pages 102-113. 
 3. Pravdin, S.,  Ushenin, K.,  Sozykin, A.,  Solovyova, O. [Human Heart Simulation Software for Parallel Computing Systems](http://www.sciencedirect.com/science/article/pii/S1877050915033955) // Procedia Computer Science, volume 66, 2015, pages 402-411.

@@ -39,6 +39,11 @@ permalink: /courses/networks_online
 6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc).
 7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec).
 8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M).
+9. [Практика "Wi-Fi джунгли"](https://youtu.be/IXkw5x9t3wg).
+9. [Лекция "Wi-Fi. Управление доступом к разделяемой среде"](https://youtu.be/9eWeUaHA_Us).
+8. [Лекция "Wi-Fi. Формат кадра"](https://youtu.be/nhhDsnQoWh0).
+
+
 
 ### Сетевой уровень
 

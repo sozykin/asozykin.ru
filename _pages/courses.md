@@ -17,3 +17,4 @@ permalink: /courses/
 Курсы на YouTube.
 
 1. [Компьютерные сети](/courses/networks_online).
+2. [Программирование глубоких нейронных сетей на Python](/courses/nnpython).

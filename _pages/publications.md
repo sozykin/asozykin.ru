@@ -3,6 +3,9 @@ layout: page
 title: Публикации
 permalink: /publications/
 ---
+1. Andrey Sozykin, Timofei Epanchintsev, Vladimir Zverev, Svyatoslav Khamzin, Aleksandr Bersenev. [Automated Parallel Simulation of Heart Electrical Activity Using Finite Element Method](http://dx.doi.org/10.1007/978-3-319-49956-7_29) // Lecture Notes in Computer Science, vol. 10049, 2016, pp. 365-372.
+
+1. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Vladimir Zverev. [Parallel Simulation of Scroll Wave Dynamics in the Human Heart Using the FEniCS Framework](http://www.sciencedirect.com/science/article/pii/S1877050916326771/pdf?md5=f2fef2c4b71381599201bf7f1ff02c0d&pid=1-s2.0-S1877050916326771-main.pdf) // Procedia Computer Science, Volume 101, 2016, Pages 68-75. 
 1. Arseny Krasnobaev and Andrey Sozykin. [An Overview of Techniques for Cardiac Left Ventricle Segmentation on Short-Axis MRI](http://www.itm-conferences.org/articles/itmconf/abs/2016/03/itmconf_icbda2016_01003/itmconf_icbda2016_01003.html) // ITM Web of Conferences, Vol. 8, 2016.
 1. Andrey Sozykin, Natalia Neustroeva, Vladimir Baidakov, Sergey Protsenko, Vasiliy Brukhanov, Konstantin Ushenin, Arsenii Krasnobaev. [Post-Processing the Results of Metastable States Molecular Dynamics Simulation](http://ceur-ws.org/Vol-1729/paper-02.pdf) // Proceedings of the 2nd Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists. CEUR Workshop Proceedings, Volume 1729, 2016, pages 11-16.
 1. Ushenin, K.S.,  Kuklin, E.Y.,  Byordov, D.A.,  Sozykin, A.V. [Computational workflow system for simulation of living systems on supercomputers](http://ceur-ws.org/Vol-1576/101.pdf) // 10th Annual International Scientific Conference on Parallel Computing Technologies, PCT 2016; Arkhangelsk; Russian Federation. CEUR Workshop Proceedings, Volume 1576, 2016, pages 729-735.

@@ -5,7 +5,7 @@ permalink: /courses/nnpython
 ---
 Учебный курс начального уровня для программистов, которые хотят научиться применять нейронные сети для решения практических задач.
 
-Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow] (https://www.tensorflow.org/) в качестве вычислительного бэкенда. 
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. 
 
 ## Лекции курса:
 

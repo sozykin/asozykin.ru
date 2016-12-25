@@ -5,8 +5,6 @@ permalink: /courses/nnpython
 ---
 Учебный курс начального уровня для программистов, которые хотят научиться применять нейронные сети для решения практических задач.
 
-Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. 
-
 ## Лекции курса:
 
 1. [Введение](https://youtu.be/GX7qxV5nh5o).
@@ -24,6 +22,12 @@ permalink: /courses/nnpython
 ## Примеры программ
 
 [https://github.com/sozykin/dlpython_course](https://github.com/sozykin/dlpython_course).
+
+## Необходимое программное обеспечение
+
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 
+
+Примеры кода протестированы на Python 3 и Theano. [Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 
 ## Благодарности
 

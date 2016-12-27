@@ -32,7 +32,7 @@ permalink: /courses/netmin
 
 **Уровни модели OSI (+отображение на TCP/IP, источник):**
 
-- приладной (Application Layer)
+- прикладной (Application Layer)
 - представления (Presentation Layer)
 - сеансовый (Session Layer)
 - транспортный (Transport Layer)

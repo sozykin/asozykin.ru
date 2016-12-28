@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Практика&#58; Распознование рукописных цифр из набора данных MNIST на Keras
+title: Практика&#58; Распознавание рукописных цифр из набора данных MNIST на Keras
 permalink: /courses/nnpython-lab1
 comments: true
 ---

@@ -11,37 +11,33 @@ comments: true
 
 1. **Установка Anaconda**. Сначала необходимо установить диструбутив Python Anaconda. Скачайте с [сайта Continuum Analytics](https://www.continuum.io/downloads) версию Anaconda для своей операционной системы. Выбирайте третью версию Python, потому что именно она используется в курсе.
 
-2. **Установка Theano**. Все примеры в курсе протестированы с библиотекой Theano. Чтобы установить Theano в Anaconda, выполните команду:  
+2. **Установка Theano**. Все примеры в курсе протестированы с библиотекой Theano. Чтобы установить Theano в Anaconda, выполните команду:
     
-    `conda install theano`
+        conda install theano
   
 3. **Установка Keras**. Пока Keras не входит в основной набор пакетов Anaconda, но его можно установить из conda-forge:
   
-    `conda install -c conda-forge keras`
+        conda install -c conda-forge keras
 
 4. **Настраиваем Keras на работу с Theano**. В файле `.keras/keras.json`, который находится в домашнем каталоге пользователя, прописываем Theano в качестве бекенда:
 
-    ```
-    {
-        "epsilon": 1e-07,
-        "backend": "theano",
-        "image_dim_ordering": "th",
-        "floatx": "float32"
-    }
-    ```
-    
+        {
+            "epsilon": 1e-07,
+            "backend": "theano",
+            "image_dim_ordering": "th",
+            "floatx": "float32"
+        }
+  
     Также указываем, что будем использовать порядок хранения измерений в изображениях, который применяется в Theano (`"image_dim_ordering": "th"`). В TensorFlow использиуется другой порядок.
 
 5. **Проверка установки**. Напечатаем версию Keras, которая была установлена:
 
-    `python -c "import keras; print(keras.__version__)"`
+        python -c "import keras; print(keras.__version__)"
     
     Результат должен быть примерно таким:
     
-    ```
-    Using Theano backend.
-    1.0.7
-    ```
+        Using Theano backend.
+        1.0.7
     
     Установлена версия Keras 1.0.7, в качестве бекенда используется Theano.
     

@@ -23,8 +23,8 @@ Keras позволяет сохранить два типа информации
 ```python
 # Генерируем описание модели в формате json
 model_json = model.to_json()
-json_file = open("mnist_model.json", "w")
 # Записываем модель в файл
+json_file = open("mnist_model.json", "w")
 json_file.write(model_json)
 json_file.close()
 ```

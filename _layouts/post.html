@@ -16,6 +16,8 @@ layout: default
 
   {% include social.html %}
   
-  {% include comments.html %}
+  {% if jekyll.environment == 'production' %}
+      {% include comments.html %}
+  {% endif %} 
 
 </article>

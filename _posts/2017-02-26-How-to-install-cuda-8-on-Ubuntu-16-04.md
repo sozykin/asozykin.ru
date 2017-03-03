@@ -25,9 +25,9 @@ comments: true
 
 Устанавливать драйвер NVIDIA GPU удобнее всего из репозитория [Proprietary GPU Drivers](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa). 
 
-    add-apt-repository ppa:graphics-drivers/ppa
-    apt-get update
-    apt-get install nvidia-375
+    sudo add-apt-repository ppa:graphics-drivers/ppa
+    sudo apt-get update
+    sudo apt-get install nvidia-375
 
 # Установка CUDA 8
 
@@ -53,7 +53,7 @@ CUDA 8 будет установлена в каталог `/usr/local/cuda-8.0`
     
 Затем для настройки библиотек нужно вызвать команду: 
 
-    ldconfig
+    sudo ldconfig
 
 # Перезагрузка
 

@@ -5,7 +5,7 @@ date:   2017-02-26 09:00:00 +0500
 categories: deep_learning
 comments: true
 ---
-Обучение нейронной сети можно значительно ускорить используя GPU. Theano и Tensorflow могут обучать нейронные сети на GPU компании NVIDIA. Для этого нужно установить [NVIDIA CUDA](http://www.nvidia.ru/object/cuda-parallel-computing-ru.html). В этой статье я расскажу о том, как установить CUDA 8 на Ubuntu 16.04. Установку CUDA для Windows опишу позже в отдельной статье.
+Обучение нейронной сети можно значительно ускорить используя GPU. Theano и Tensorflow могут обучать нейронные сети на GPU компании NVIDIA. Для этого нужно установить [NVIDIA CUDA](http://www.nvidia.ru/object/cuda-parallel-computing-ru.html). В этой статье я расскажу о том, как установить CUDA 8 на Ubuntu 16.04. Установка CUDA для Windows [описана в отдельной статье](/deep_learning/2017/03/08/How-to-install-cuda-8-on-Windows-10.html).
 
 <!--more-->
 

@@ -17,9 +17,13 @@ comments: true
     
         conda install theano
   
-3. **Установка Keras**:
+3. **Установка Keras**. В Linux выполните команду:
   
         conda install keras
+
+    Для Windows пока нет Keras в основном наборе пакетов Anaconda, но можно установить из conda-forge:
+
+        conda install -c conda-forge keras
 
 4. **Настраиваем Keras на работу с Theano**. В файле `.keras/keras.json`, который находится в домашнем каталоге пользователя, прописываем Theano в качестве бекенда:
 

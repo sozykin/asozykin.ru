@@ -6,6 +6,8 @@ comments: true
 ---
 В этой практической работе по курсу ["Глубокое обучение на Python"](/courses/nnpython) вы научитесь обучать нейронную сеть распознавать объекты на изображениях из набора данных CIFAR-10. 
 
+**Обновление от 08.05.2017**. *Программы обновлены на Keras версии 2*.
+
 **Цель работы**: научится оценивать влияние гиперпараметров обучения (скорость обучения, количество эпох обучения, количество слоев в сети) на качество обучения нейронной сети.
 
 ## Предварительные сведения
@@ -13,6 +15,12 @@ comments: true
 Перед выполнением работы рекомендуется посмотреть видео с объяснением, как работает программа распознавания объектов на изображениях из набора данных CIFAR-10.
 
 {% include youtube-player.html id="5GdtghjJ3-U" %}
+
+## Необходимое программное обеспечение
+
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда.
+
+[Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 
 ## Базовая версия программы
 
@@ -24,7 +32,7 @@ from keras.datasets import cifar10
 from keras.models import Sequential
 from keras.layers import Dense, Flatten, Activation
 from keras.layers import Dropout
-from keras.layers.convolutional import Convolution2D, MaxPooling2D
+from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.utils import np_utils
 from keras.optimizers import SGD
 
@@ -33,7 +41,6 @@ numpy.random.seed(42)
 
 # Загружаем данные
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
-
 # Размер мини-выборки
 batch_size = 32
 # Количество классов изображений
@@ -58,19 +65,19 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 # Создаем последовательную модель
 model = Sequential()
 # Первый сверточный слой
-model.add(Convolution2D(32, 3, 3, border_mode='same',
-                        input_shape=(3, 32, 32), activation='relu'))
+model.add(Conv2D(32, (3, 3), padding='same',
+                        input_shape=(32, 32, 3), activation='relu'))
 # Второй сверточный слой
-model.add(Convolution2D(32, 3, 3, activation='relu'))
+model.add(Conv2D(32, (3, 3), activation='relu', padding='same'))
 # Первый слой подвыборки
 model.add(MaxPooling2D(pool_size=(2, 2)))
 # Слой регуляризации Dropout
 model.add(Dropout(0.25))
 
 # Третий сверточный слой
-model.add(Convolution2D(64, 3, 3, border_mode='same', activation='relu'))
+model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
 # Четвертый сверточный слой
-model.add(Convolution2D(64, 3, 3, activation='relu'))
+model.add(Conv2D(64, (3, 3), activation='relu'))
 # Второй слой подвыборки
 model.add(MaxPooling2D(pool_size=(2, 2)))
 # Слой регуляризации Dropout
@@ -92,9 +99,10 @@ model.compile(loss='categorical_crossentropy',
 # Обучаем модель
 model.fit(X_train, Y_train,
               batch_size=batch_size,
-              nb_epoch=nb_epoch,
+              epochs=nb_epoch,
               validation_split=0.1,
-              shuffle=True)
+              shuffle=True,
+              verbose=2)
 
 # Оцениваем качество обучения модели на тестовых данных
 scores = model.evaluate(X_test, Y_test, verbose=0)
@@ -194,14 +202,14 @@ Epoch 25/25
 3. **Количество слоев в сети**. Оценим влияние количества сверточных слоев в сети на качество обучения. Для этого удалим второй каскад из двух слоев свертки и слоя подвыборки:
         
         # Третий сверточный слой
-        model.add(Convolution2D(64, 3, 3, border_mode='same', activation='relu'))
+        model.add(Conv2D(64, (3, 3), padding='same', activation='relu'))
         # Четвертый сверточный слой
-        model.add(Convolution2D(64, 3, 3, activation='relu'))
+        model.add(Conv2D(64, (3, 3), activation='relu'))
         # Второй слой подвыборки
         model.add(MaxPooling2D(pool_size=(2, 2)))
         # Слой регуляризации Dropout
         model.add(Dropout(0.25))
-
+    
     Запустите программу и оцените точность работы сети на тестовых данных, а также время обучения сети.
     
 ## Выбираем лучшие гиперпараметры

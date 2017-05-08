@@ -6,6 +6,8 @@ comments: true
 ---
 В этой практической работе по курсу ["Глубокое обучение на Python"](/courses/nnpython) вы научитесь обучать нейронную сеть определять тональность отзыва на фильмы из базы данных IMDB. 
 
+**Обновление от 08.05.2017**. *Программы обновлены на Keras версии 2*.
+
 **Цель работы**: научится оценивать влияние гиперпараметров обучения (количество эпох обучения, количество нейронов на слое LSTM, алгоритм оптимизации) на качество обучения нейронной сети.
 
 ## Предварительные сведения
@@ -13,6 +15,12 @@ comments: true
 Перед выполнением работы рекомендуется посмотреть видео с объяснением, как работает программа определения тональности отзывов на фильмы из базы данных IMDB.
 
 {% include youtube-player.html id="7Tx_cewjhGQ" %}
+
+## Необходимое программное обеспечение
+
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда.
+
+[Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 
 ## Базовая версия программы
 
@@ -23,7 +31,7 @@ import numpy as np
 from keras.preprocessing import sequence
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Embedding
-from keras.layers import LSTM
+from keras.layers import LSTM, SpatialDropout1D
 from keras.datasets import imdb
 
 # Устанавливаем seed для повторяемости результатов
@@ -34,7 +42,7 @@ max_features = 5000
 maxlen = 80
 
 # Загружаем данные
-(X_train, y_train), (X_test, y_test) = imdb.load_data(nb_words=max_features)
+(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=max_features)
 
 # Заполняем или обрезаем рецензии
 X_train = sequence.pad_sequences(X_train, maxlen=maxlen)
@@ -43,9 +51,10 @@ X_test = sequence.pad_sequences(X_test, maxlen=maxlen)
 # Создаем сеть
 model = Sequential()
 # Слой для векторного представления слов
-model.add(Embedding(max_features, 32, dropout=0.2))
+model.add(Embedding(max_features, 32))
+model.add(SpatialDropout1D(0.2))
 # Слой долго-краткосрочной памяти
-model.add(LSTM(100, dropout_W=0.2, dropout_U=0.2))  
+model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2)) 
 # Полносвязный слой
 model.add(Dense(1, activation="sigmoid"))
 
@@ -55,8 +64,8 @@ model.compile(loss='binary_crossentropy',
               metrics=['accuracy'])
 
 # Обучаем модель
-model.fit(X_train, y_train, batch_size=64, nb_epoch=7,
-          validation_data=(X_test, y_test), verbose=1)
+model.fit(X_train, y_train, batch_size=64, epochs=7,
+          validation_data=(X_test, y_test), verbose=2)
 # Проверяем качество обучения на тестовых данных
 scores = model.evaluate(X_test, y_test,
                         batch_size=64)
@@ -100,16 +109,16 @@ Epoch 7/7
 
 Мы попытаемся улучшить качество обучения сети путем изменения гиперпараметров: количество эпох обучения, количество нейронов на слое LSTM, алгоритм оптимизации. Для этого проведем серию экспериментов, в каждом из которых будем менять один из гиперпараметров, и анализировать, как изменилось качество работы сети.
 
-1. **Количество эпох обучения**. Оценим влияние количества эпох обучения на качество обучения сети. Количество эпох задается в аргументе `nb_epoch` метода `model.fit`:
+1. **Количество эпох обучения**. Оценим влияние количества эпох обучения на качество обучения сети. Количество эпох задается в аргументе `epochs` метода `model.fit`:
 
-        model.fit(X_train, y_train, batch_size=64, nb_epoch=XXX,
-          validation_data=(X_test, y_test), verbose=1)
+        model.fit(X_train, y_train, batch_size=64, epochs=7,
+          validation_data=(X_test, y_test), verbose=2)
         
     Попробуйте обучать сеть в течение 5, 10 и 15 эпох. Определите, когда начинается переобучение. Выберите количество эпох, при котором самая высокая точность работы сети на тестовых данных.
     
 2. **Количество нейронов в слое LSTM**. Оцените влияние количества нейронов в LSTM слое сети на качество обучения. Количество нейронов задается при добавлении слоя в модель:
         
-        model.add(LSTM(XXX, dropout_W=0.2, dropout_U=0.2))
+        model.add(LSTM(XXX, dropout=0.2, recurrent_dropout=0.2))
         
     Используйте количество нейронов 50, 125, 150. Выберите количество нейронов в LSTM слое, при котором обеспечивается самая высокая точность обучения. Проанализируйте влияния количества нейронов в LSTM слое на время обучения сети.
     

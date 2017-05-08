@@ -9,7 +9,7 @@ comments: true
 
 <!--more-->
 
-*Обновление от 17.04.2017*: изменено на Keras версии 2, Theano 0.9 и Python 3.6.
+**Обновление от 17.04.2017**: *изменено на Keras версии 2, Theano 0.9 и Python 3.6*.
 
 1. **Установка Anaconda**. Сначала необходимо установить диструбутив Python Anaconda. Скачайте с [сайта Continuum Analytics](https://www.continuum.io/downloads) версию Anaconda для своей операционной системы. Выбирайте версию Python 3.6.
 
@@ -30,7 +30,7 @@ comments: true
         {
             "epsilon": 1e-07,
             "backend": "theano",
-            "image_dim_ordering": "channels_last",
+            "image_dim_ordering": "channels_first",
             "floatx": "float32"
         }
   

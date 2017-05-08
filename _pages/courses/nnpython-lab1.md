@@ -31,7 +31,7 @@ comments: true
 
 Базовая версия программы, которая реализует обучение нейронной сети для распознавания рукописных цифр.
 
-```
+```python
 import numpy
 from keras.datasets import mnist
 from keras.models import Sequential

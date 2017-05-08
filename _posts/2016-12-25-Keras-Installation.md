@@ -30,7 +30,7 @@ comments: true
         {
             "epsilon": 1e-07,
             "backend": "theano",
-            "image_dim_ordering": "channels_first",
+            "image_data_format": "channels_first",
             "floatx": "float32"
         }
   

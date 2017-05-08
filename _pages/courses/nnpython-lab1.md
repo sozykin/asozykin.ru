@@ -6,6 +6,8 @@ comments: true
 ---
 В этой практической работе по курсу ["Глубокое обучение на Python"](/courses/nnpython) вы научитесь обучать нейронную сеть распознавать рукописные цифры из набора данных MNIST. 
 
+**Обновление от 08.05.2017**. *Программы обновлены на Keras версии 2*.
+
 **Цель работы**: научится оценивать влияние гиперпараметров обучения (количество эпох обучения, размер мини-выборки, количество нейронов во входном слое, количество скрытых слоев) на качество обучения нейронной сети.
 
 ## Предварительные сведения
@@ -18,11 +20,18 @@ comments: true
 
 {% include youtube-player.html id="ykDH66b0N_4" %}
 
+## Необходимое программное обеспечение
+
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда.
+
+[Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
+
+
 ## Базовая версия программы
 
 Базовая версия программы, которая реализует обучение нейронной сети для распознавания рукописных цифр.
 
-```python
+```
 import numpy
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -52,8 +61,8 @@ Y_test = np_utils.to_categorical(y_test, 10)
 model = Sequential()
 
 # Добавляем уровни сети
-model.add(Dense(800, input_dim=784, init="normal", activation="relu"))
-model.add(Dense(10, init="normal", activation="softmax"))
+model.add(Dense(800, input_dim=784, activation="relu", kernel_initializer="normal"))
+model.add(Dense(10, activation="softmax", kernel_initializer="normal"))
 
 # Компилируем модель
 model.compile(loss="categorical_crossentropy", optimizer="SGD", metrics=["accuracy"])
@@ -61,7 +70,7 @@ model.compile(loss="categorical_crossentropy", optimizer="SGD", metrics=["accura
 print(model.summary())
 
 # Обучаем сеть
-model.fit(X_train, Y_train, batch_size=200, nb_epoch=100, validation_split=0.2, verbose=1)
+model.fit(X_train, Y_train, batch_size=200, epochs=100, validation_split=0.2, verbose=2)
 
 # Оцениваем качество обучения сети на тестовых данных
 scores = model.evaluate(X_test, Y_test, verbose=0)
@@ -147,29 +156,29 @@ Epoch 100/100
 
 Мы попытаемся улучшить качество обучения сети путем изменения гиперпараметров: количество эпох обучения, размер мини-выборки, количество нейронов во входном слое, количество скрытых слоев. Для этого проведем серию экспериментов, в каждом из которых будем менять один из гиперпараметров, и анализировать, как изменилось качество работы сети.
 
-1. **Количество эпох обучения**. Оценим влияние количества эпох обучения на качество обучения сети. Количество эпох задается в аргументе `nb_epoch` метода `model.fit`:
+1. **Количество эпох обучения**. Оценим влияние количества эпох обучения на качество обучения сети. Количество эпох задается в аргументе `epochs` метода `model.fit`:
 
-        model.fit(X_train, Y_train, batch_size=200, nb_epoch=XXX, validation_split=0.2, verbose=1)
+        model.fit(X_train, Y_train, batch_size=200, epochs=XXX, validation_split=0.2, verbose=2)
 
     Попробуйте обучать сеть в течение 50, 75, 100 и 125 эпох. Выберите количество эпох, при котором самая высокая точность работы сети на тестовых данных.
 
 2. **Размер мини-выборки**. Оценим влияние размера мини-выборки на качество обучения сети. Размер задается в аргументе `batch_size` метода `model.fit`:
 
-        model.fit(X_train, Y_train, batch_size=XXX, nb_epoch=100, validation_split=0.2, verbose=1)
+        model.fit(X_train, Y_train, batch_size=XXX, epochs=100, validation_split=0.2, verbose=2)
     
     Используйте размер мини-выборки 50, 100, 200 и 400. Выберите значение, при котором самая высокая точность работы сети на тестовых данных. 
     
 3. **Количество нейронов входного слоя**. Изменяйте количество нейронов во входном слое и оцените, как оно влияет на качество обучения сети. Количество нейронов задается при создании входного слоя:
 
-        model.add(Dense(XXX, input_dim=784, init="normal", activation="relu"))
+        model.add(Dense(XXX, input_dim=784, activation="relu", kernel_initializer="normal"))
         
     Используйте значения 500, 700, 900, 1200. Выберите значение, при котором самая высокая точность работы сети на тестовых данных.
     
 4. **Добавляем скрытый слой**. Добавим в нашу сеть скрытый слой, чтобы она стала глубокой:
 
-        model.add(Dense(800, input_dim=784, init="normal", activation="relu"))
-        model.add(Dense(600, init="normal", activation="relu"))
-        model.add(Dense(10, init="normal", activation="softmax"))
+        model.add(Dense(800, input_dim=784, activation="relu", kernel_initializer="normal"))
+        model.add(Dense(600, activation="relu", kernel_initializer="normal"))
+        model.add(Dense(10, activation="softmax", kernel_initializer="normal"))
         
     Попробуйте добавить скрытый слой с разным количеством нейронов: 500, 700, 900 и 1200. Выберите наиболее подходящее количество нейронов скрытого слоя.
     

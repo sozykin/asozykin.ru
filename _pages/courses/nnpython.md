@@ -37,7 +37,9 @@ permalink: /courses/nnpython
 ## Дополнительные материалы и практические примеры
 
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
-1. [Как использовать нейронную сеть для классификации изображений](/deep_learning/2017/02/23/How-to-use-nn-to-classify-images.html).
+2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
+3. [Как использовать нейронную сеть для классификации изображений](/deep_learning/2017/02/23/How-to-use-nn-to-classify-images.html).
+4. [Предварительно обученные нейронные сети в Keras](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
 
 
 ## Примеры программ

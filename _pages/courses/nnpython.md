@@ -32,6 +32,7 @@ permalink: /courses/nnpython
 13. [Лекция "Анализ текстов с помощью рекуррентных нейронных сетей"](https://youtu.be/7Tx_cewjhGQ). 
 14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3).
 15. [Лекция "Использование GPU для ускорения обучения нейронной сети"](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
+16. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
 
 
 ## Дополнительные материалы и практические примеры
@@ -39,8 +40,6 @@ permalink: /courses/nnpython
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
 3. [Как использовать нейронную сеть для классификации изображений](/deep_learning/2017/02/23/How-to-use-nn-to-classify-images.html).
-4. [Предварительно обученные нейронные сети в Keras](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
-
 
 ## Примеры программ
 

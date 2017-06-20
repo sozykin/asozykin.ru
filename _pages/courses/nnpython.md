@@ -28,6 +28,7 @@ permalink: /courses/nnpython
 9. [Лекция "Сверточные нейронные сети"](https://youtu.be/52U4BG0ENiM).
 10. [Лекция "Распознавание объектов на изображениях"](https://youtu.be/5GdtghjJ3-U).
 11. [Практическая работа "Распознавание объектов на изображениях с помощью Keras"](/courses/nnpython-lab2).
+12. [Лекция "Анализируем изображения с помощью нейронных сетей"](/deep_learning/2017/06/20/Image-Classification-Using-Neural-Networks.html).
 12. [Лекция "Рекуррентные нейронные сети"](https://youtu.be/38iGggnbbsQ).
 13. [Лекция "Анализ текстов с помощью рекуррентных нейронных сетей"](https://youtu.be/7Tx_cewjhGQ). 
 14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3).
@@ -39,7 +40,7 @@ permalink: /courses/nnpython
 
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
-3. [Как использовать нейронную сеть для классификации изображений](/deep_learning/2017/02/23/How-to-use-nn-to-classify-images.html).
+
 
 ## Примеры программ
 

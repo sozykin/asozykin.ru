@@ -51,8 +51,8 @@ comments: true
 # Выделяем данные для обучения
 x_train = train_dataset[:, 1:]
 # Переформатируем данные в 2D, бэкенд Theano
-x_train = x_train.reshape(x_train.shape[0], 1, 24, 24)
-input_shape = (1, 24, 24)
+x_train = x_train.reshape(x_train.shape[0], 1, 28, 28)
+input_shape = (1, 28, 28)
 # Нормализуем данные
 x_train = x_train.astype("float32")
 x_train /= 255.0

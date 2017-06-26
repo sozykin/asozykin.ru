@@ -66,7 +66,7 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 model = Sequential()
 # Первый сверточный слой
 model.add(Conv2D(32, (3, 3), padding='same',
-                        input_shape=(32, 32, 3), activation='relu'))
+                        input_shape=(3, 32, 32), activation='relu'))
 # Второй сверточный слой
 model.add(Conv2D(32, (3, 3), activation='relu', padding='same'))
 # Первый слой подвыборки

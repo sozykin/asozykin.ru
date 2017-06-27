@@ -13,7 +13,7 @@ permalink: /projects/hpc-academy
 
 # Материалы трека Летней Суперкомпьютерной Академии в УрФУ
 
-[Программа трека в УрФУ](/assets/hpc-academy/schedule.pdf).
+[Расписание трека в УрФУ](/assets/hpc-academy/schedule.pdf).
 
 **Презентации**
 
@@ -23,3 +23,12 @@ permalink: /projects/hpc-academy
 [Материалы курса по "Глубоким нейронным сетям"](/courses/nnpython).
 
 [Репозиторий с примерами кода](https://github.com/sozykin/dlpython_course).
+
+# Материалы для подготовки к тесту
+
+1. Презентация [Математические основы параллельных вычислений](http://academy.hpc-russia.ru/files/vvv_math_foundations.pdf). чл. -корр. РАН, проф. В.В. Воеводин.
+2. Презентация [Эффективность параллельных программ](http://academy.hpc-russia.ru/files/antonov_efficiency.pdf). А.С. Антонов, вед. н.с. НИВЦ МГУ, к.ф.-м.н.
+3. Книга Антонов А.С. [Параллельное программирование с использованием технологии MPI: Учебное пособие](https://parallel.ru/sites/default/files/tech/tech_dev/MPI/mpibook.pdf).
+4. Книга Антонов А.С. [Параллельное программирование с использованием технологии OpenMP](https://parallel.ru/sites/default/files/info/parallel/openmp/OpenMP.pdf).
+5. Презентация [Технология OpenMP](https://yadi.sk/i/a_uaC4lHfiWTw). А.В.Созыкин, УрФУ.
+6. Презентация [Технология MPI](https://yadi.sk/i/ogYp1MYgk48Ba). А.В.Созыкин, УрФУ.

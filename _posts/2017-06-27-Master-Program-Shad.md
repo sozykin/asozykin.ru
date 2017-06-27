@@ -26,7 +26,7 @@ comments: true
 2. Научные вычисления
 3. [Язык программирования C++](https://yandexdataschool.ru/edu-process/program/special-courses/cpp). **Курс ШАД**.
 
-Нужно выбрать 1 пердмет из списка.
+Нужно выбрать 1 прeдмет из списка.
 
 # Второй семестр
 
@@ -44,7 +44,7 @@ comments: true
 1. [Методы оптимизации в машинном обучении](https://yandexdataschool.ru/edu-process/program/special-courses/oml). **Курс ШАД**. 
 2. [Язык Python](https://yandexdataschool.ru/edu-process/program/special-courses/python). **Курс ШАД**.
 
-Нужно выбрать 1 пердмет из списка.
+Нужно выбрать 1 предмет из списка.
 
 
 # Третий семестр
@@ -64,7 +64,7 @@ comments: true
 2. [Глубокое обучение](https://yandexdataschool.ru/edu-process/program/special-courses/deep-learning). **Курс ШАД**.
 3. Программирование на GPU.
 
-Нужно выбрать 1 пердмет из списка.
+Нужно выбрать 1 предмет из списка.
 
 # Четвертый семестр
 

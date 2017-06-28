@@ -32,3 +32,7 @@ permalink: /projects/hpc-academy
 4. Книга Антонов А.С. [Параллельное программирование с использованием технологии OpenMP](https://parallel.ru/sites/default/files/info/parallel/openmp/OpenMP.pdf).
 5. Презентация [Технология OpenMP](https://yadi.sk/i/a_uaC4lHfiWTw). А.В.Созыкин, УрФУ.
 6. Презентация [Технология MPI](https://yadi.sk/i/ogYp1MYgk48Ba). А.В.Созыкин, УрФУ.
+
+# Полезные ссылки для проектов
+
+1. [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html).

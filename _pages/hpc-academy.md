@@ -36,3 +36,5 @@ permalink: /projects/hpc-academy
 # Полезные ссылки для проектов
 
 1. [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html).
+
+[Результаты тестирования (первая попытка)](https://yadi.sk/i/VOnK5yu03Kaw6B).

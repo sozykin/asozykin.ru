@@ -11,7 +11,7 @@ comments: true
 
 ![Мое фото на паспорте и с web-камеры](/assets/images/face_identification/sozykin_passport_webcam.jpg)
 
-Примеры более серьезных изменений можно найти на сайт [adme.ru](https://www.adme.ru/tvorchestvo-fotografy/foto-na-pasporte-i-v-zhizni-1222610/).
+Примеры более серьезных изменений можно найти на сайте [adme.ru](https://www.adme.ru/tvorchestvo-fotografy/foto-na-pasporte-i-v-zhizni-1222610/).
 
 Задачу верификации можно решать автоматически, если сфотографировать клиента на web-камеру (это сейчас делают многие банки) и сравнить полученное изображение с фотографией в паспорте. Давайте посмотрим как это можно сделать с помощью глубоких нейронных сетей. 
 

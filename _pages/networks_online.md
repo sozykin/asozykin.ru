@@ -119,7 +119,7 @@ permalink: /courses/networks_online
 
 1. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4).
 2. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg).
-3. [практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
+3. [Практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
 
 
 ## Рекомендуемая литература

@@ -45,8 +45,6 @@ permalink: /courses/networks_online
 12. [Лекция "Сервисы Wi-Fi"](https://youtu.be/FYAuqKjEpLs).
 
 
-
-
 ### Сетевой уровень
 
 1. [Лекция "Сетевой уровень"](https://youtu.be/Vm7UZvEgPT8).
@@ -114,6 +112,15 @@ permalink: /courses/networks_online
 ## Презентации лекций
 
 [Презентации видеолекций](https://yadi.sk/d/I8TOPyldkM3oZ).
+
+## Продвинутые темы 
+
+В этом разделе приведены продвинутые темы компьютерных сетей, которые рекомендуется изучать после освоения основного курса. Смотреть лекции можно в любой последовательности.
+
+1. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4).
+2. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg).
+3. [практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
+
 
 ## Рекомендуемая литература
 

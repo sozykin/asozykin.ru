@@ -16,6 +16,8 @@ permalink: /contacts/
 
 [Twitter](https://twitter.com/AndreySozykin)
 
+Telegram: @AndreySozykin
+
 Skype: sozykin
 
 Адрес (раб.): г.Екатеринбург, ул. Софьи Ковалевской, 16, Институт математики и механики УрО РАН.

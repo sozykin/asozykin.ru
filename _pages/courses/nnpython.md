@@ -41,6 +41,9 @@ permalink: /courses/nnpython
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
 
+## Проекты по глубоким нейронным сетям
+
+1. [Распознавание человека на фотографии](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 
 ## Примеры программ
 

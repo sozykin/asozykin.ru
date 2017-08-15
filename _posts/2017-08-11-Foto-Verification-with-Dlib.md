@@ -348,6 +348,8 @@ print(a)
 
 Полный текст примера программы верификации человека по лицу в Jupyter Notebook есть в [репозитории на github](https://github.com/sozykin/dlpython_course/).
 
+{% include youtube-player.html id="KuRdXGEmPkM" %}
+
 # Полезные ссылки
 
 1. Библиотека машинного обучения [dlib](http://dlib.net/).

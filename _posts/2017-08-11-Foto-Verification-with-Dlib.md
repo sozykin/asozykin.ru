@@ -265,7 +265,7 @@ face_descriptor2 = facerec.compute_face_descriptor(img, shape)
 Теперь у нас есть два дескриптора лиц с разных фотографий ```face_descriptor1``` и ```face_descriptor2```. Чтобы определить, один и тот же человек на фотографиях, или нет, нам нужно найти Евклидово расстояние между дескрипторами:
 
 ```python
-a = distance.euclidean(face_descriptor, face_descriptor2)
+a = distance.euclidean(face_descriptor1, face_descriptor2)
 print(a)
 ```
 
@@ -303,7 +303,7 @@ face_descriptor2 = facerec.compute_face_descriptor(img, shape)
 Рассчитываем Евклидово расстояние:
 
 ```python
-a = distance.euclidean(face_descriptor, face_descriptor2)
+a = distance.euclidean(face_descriptor1, face_descriptor2)
 print(a)
 0.8440052856492404
 ```

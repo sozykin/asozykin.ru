@@ -4,47 +4,90 @@ title: Компьютерные сети
 permalink: /courses/networks
 ---
 
-Курс по основам компьютерных сетей для бакалавров 2 курса Института математики и компьютерных наук УрФУ.
+Курс по основам компьютерных сетей для бакалавров 2 курса Департамента математики и компьютерных наук УрФУ.
 
-## Видео на Youtube
+На матмехе курс по компьютерным сетям разбит на две части, которые проводятся в двух семестрах. В первой части, которая проходит в осеннем семестре, рассматриваются основы компьютерных сетей до транспортного уровня модели OSI. Вторая часть (осенний семестр второго курса) посвящена протоколам прикладного уровня.
 
-1. [Лекции](https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1).
-2. [Практики с Wireshark](https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiKPQ9GXOvntj44Eu8IGAJK).
+Я и моя команда кафедры ВКТ ведем только первую часть курса, вторую часть ведут преподаватели с кафедры ВМ. Поэтому здесь материалы только до транспортного уровня. Если вам будет интересно, можете посмотреть полную версию учебных материалов на странице [онлайн курса](/courses/networks_online). Но для сдачи экзамена это не обязательно.
 
-## Презентации лекций
+В 2017 году мы изменили порядок проведения курса. Очных лекций не будет, вместо них видеолекции на YouTube. Очно будут проводиться только практические занятия, на которых вы работаете с сетевым оборудованием. На практиках будут проходить пятиминутки для оценки того, как вы смотрите и понимаете лекции, а также контрольные работы для проверки практических навыков. [Формат проведения экзамена](/courses/networks_exam) не меняется.  
 
-1. [Описание курса](https://yadi.sk/i/XjxDP99qixTcQ).
-2. [Введение в компьютерные сети](https://yadi.sk/i/VkAd-NkNixTgc).
-3. [Основы организации сетей](https://yadi.sk/i/6noD2-LMcmq5C).
-4. [Эталонные модели и стандартизация сетей](https://yadi.sk/i/0qd0dup1cmq5p).
-5. [Физический уровень](https://yadi.sk/i/er8yGQ5scmq6V).
-6. [Канальный уровень](https://yadi.sk/i/44rrI8r8cmq7J).
-7. [Технология Ethernet](https://yadi.sk/i/q5MKr49bcmq7t).
-8. [Коммутируемый Ethernet](https://yadi.sk/i/uEYr0dLlcmq8V).
-9. [Дополнительные функции коммутаторов](https://yadi.sk/i/swkBUnxPcmqB8).
-10. [Wi-Fi](https://yadi.sk/i/iAyASBgtcmqBx).
-11. [Сетевой уровень](https://yadi.sk/i/wedgH-TUcmqER).
-12. [IP-адресация](https://yadi.sk/i/VBBgLpldcs7Fe).
-13. [Протокол IP](https://yadi.sk/i/tH_kCnBMcsA7b).
-14. [Маршрутизация](https://yadi.sk/i/RZ62wCMDd8XJP).
-15. [Управляющие протоколы сетевого уровня](https://yadi.sk/i/j4-zh4DKd8XaK). 
-16. [Протоколы маршрутизации](https://yadi.sk/i/nmVggHm2dBwQG).
-17. [Протокол IPv6](https://yadi.sk/i/1nlqlHC5dBzSB).
-18. [Транспортный уровень](https://yadi.sk/i/GeQPeiqCdC4FV).
-19. [Протокол UDP](https://yadi.sk/i/Yjk1u0zxdC4Gn).
-20. [Протокол TCP](https://yadi.sk/i/9IHTtz4_dQERq).
-21. [Управление потоком и перегрузкой в TCP](https://yadi.sk/d/_kVGwdzwdQERX).
-22. [Сокеты](https://yadi.sk/i/oiPl24yHdQERm).
-23. [Передача данных по сети](https://yadi.sk/i/DWovS49DnKdq8).
-24. [Дополнительные особенности построения сетей](https://yadi.sk/i/_K1jQ6ibnKdq4).
+Вопросы по курсу можно задавать преподавателям практик на занятиях, а также мне любым удобным способом на странице "[Контакты](/contacts)". 
 
-[Презентации видеолекций](https://yadi.sk/d/I8TOPyldkM3oZ).
+## Видеолекции
 
-## Результаты пятиминуток осень 2016 г.
+1. [Вводное видео курса](https://youtu.be/OLFA0soYGhw).
 
-1. [КН-201](https://docs.google.com/spreadsheets/d/1gs8hCjd-yXXekynz0rmXh3R_4P0qv5lIosy4oSRdtwo/edit?usp=sharing).
-2. [КН-202](https://docs.google.com/spreadsheets/d/1rAI14JtM2RPCRXmbToYYl0EA-eQqXLHhKwFb0UR5BqE/edit?usp=sharing).
-3. [ФИИТ-201](https://docs.google.com/spreadsheets/d/1-rgDbyQwR2j5CNGC9a6H0FzarlBI12WqQTE-gbO3ddk/edit?usp=sharing).
+### Общие сведения о компьютерных сетях
+
+1. [Лекция "Классификация сетей"](https://youtu.be/Y4LK1OZ54h0).
+2. [Лекция "Стандарты компьютерных сетей"](https://youtu.be/1dWCwQpqydU).
+3. [Лекция "Основы организации компьютерных сетей"](https://youtu.be/EPvxn9KvBvs).
+4. [Лекция "Модель OSI"](https://youtu.be/Tt8BTkxz_Vc).
+5. [Лекция "Модель и стек протоколов TCP/IP"](https://youtu.be/UZo4ffQ-aAc).
+6. [Практика "Анализатор сети Wireshark"](https://youtu.be/Cc5wi1bxmpc).
+
+### Физический уровень
+
+1. [Лекция "Физический уровень"](https://youtu.be/yIf7hrgw8P4).
+
+### Канальный уровень
+
+1. [Лекция "Канальный уровень"](https://youtu.be/JBM9TSBeo5Y).
+2. [Лекция "Технология Ethernet"](https://youtu.be/AtWcd_vCyUk).
+3. [Лекция "Технология Ethernet, часть 2"](https://youtu.be/GZo0-CHTteo).
+4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A).
+5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
+6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc).
+7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec).
+8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M).
+9. [Практика "Wi-Fi джунгли"](https://youtu.be/IXkw5x9t3wg).
+10. [Лекция "Wi-Fi. Управление доступом к разделяемой среде"](https://youtu.be/9eWeUaHA_Us).
+11. [Лекция "Wi-Fi. Формат кадра"](https://youtu.be/nhhDsnQoWh0).
+12. [Лекция "Сервисы Wi-Fi"](https://youtu.be/FYAuqKjEpLs).
+
+
+### Сетевой уровень
+
+1. [Лекция "Сетевой уровень"](https://youtu.be/Vm7UZvEgPT8).
+2. [Лекция "IP-адреса"](https://youtu.be/W87uM_VqicY).
+3. [Лекция "Протокол IP"](https://youtu.be/b_Pv7FRLH0M).
+4. [Практика "Протокол IP"](https://youtu.be/nY7RksxUJ6U).
+5. [Лекция "Протокол IP: маршрутизация"](https://youtu.be/7cIiK3jbK0s).
+6. [Лекция "Протокол IP: фрагментация"](https://youtu.be/jbt1AKyJ4gw).
+7. [Лекция "Управляющие протоколы сетевого уровня"](https://youtu.be/s1fZQgV67yY).
+8. [Лекция "Протокол DHCP"](https://youtu.be/uZJ8WVdw-Ck).
+9. [Практика "Протокол DHCP в Wireshark"](https://youtu.be/WaP4SZY0GJQ).
+10. [Лекция "Протокол ARP"](https://youtu.be/EZkkodleWqc).
+11. [Практика "Протокол ARP"](https://youtu.be/0UbLESURFwQ).
+12. [Лекция "Протокол ICMP"](https://youtu.be/9iG6ECpF-ko).
+13. [Практика "Протокол ICMP в Wireshark"](https://youtu.be/5S-4L0YUVDw).
+14. [Практика "Протокол ICMP, утилита traceroute"](https://youtu.be/TbsBhyyIth4).
+15. [Лекция "Передача пакетов на сетевом и канальном уровнях"](https://youtu.be/sHHg-Ni3eIU).
+16. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4).
+17. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg).
+18. [Практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
+19. [Лекция "Автоматическое назначение адресов IPv6"](https://youtu.be/GZTqZQVSY1A).
+
+### Транспортный уровень
+
+1. [Лекция "Транспортный уровень"](https://youtu.be/g7vq-JVId58).
+2. [Лекция "Протокол UDP"](https://youtu.be/GBrLfZvRrd8).
+3. [Лекция "Протокол TCP"](https://youtu.be/CKUOb4htnB4).
+4. [Практика "Порты на транспортном уровне"](https://youtu.be/_7O9On9_TZE).
+5. [Лекция "Протокол TCP: скользящее окно"](https://youtu.be/hd6QNXK5rPk).
+6. [Лекция "Протокол TCP: соединение"](https://youtu.be/vt69HEbZ_pI).
+7. [Лекция "Протокол TCP: формат заголовка"](https://youtu.be/wP8iUpM5DHU).
+8. [Практика "Установка соединения в TCP"](https://youtu.be/REjQGkrREKg).
+9. [Лекция "Протокол TCP: управление потоком"](https://youtu.be/YCW4fLqFlME).
+10. [Лекция "Протокол TCP: управление перегрузкой"](https://youtu.be/lGUPQjvSMeo).
+11. [Лекция "Протокол TCP: управление перегрузкой, часть 2"](https://youtu.be/H6rMGYRKI2s).
+12. [Лекция "Интерфейс сокетов"](https://youtu.be/_vAjHdh92YU).
+13. [Лекция "Протоколы, интерфейсы и сервисы. Примеры"](https://youtu.be/VGcKWSqrjgE).
+14. [Практика "Инкапсуляция"](https://youtu.be/qKuw2HJQVzk).
+15. [Лекция "Трансляция сетевых адресов (NAT)"](https://youtu.be/F7kCOa6PybQ).
+16. [Лекция "Межсетевые экраны"](https://youtu.be/9r6z9qggSIc) ([текст лекции](/computer_networks/2016/10/15/Firewalls.html)).
+
 
 ## Рекомендуемая литература
 

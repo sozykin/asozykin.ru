@@ -36,6 +36,15 @@ permalink: /courses/nnpython
 15. [Лекция "Использование GPU для ускорения обучения нейронной сети"](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
 16. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
 
+## Необходимое программное обеспечение
+
+Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 
+
+Примеры кода протестированы на Python 3 и Theano. Инструкции по установке Keras:
+
+- [Установка Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
+- [Использование GPU в Theano и Keras](/deep_learning/2017/04/20/How-to-use-gpu-with-theano-09.html).
+- [Установка Keras и TensorFlows с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
 ## Дополнительные материалы и практические примеры
 
@@ -49,12 +58,6 @@ permalink: /courses/nnpython
 ## Примеры программ
 
 [https://github.com/sozykin/dlpython_course](https://github.com/sozykin/dlpython_course).
-
-## Необходимое программное обеспечение
-
-Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 
-
-Примеры кода протестированы на Python 3 и Theano. [Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 
 ## Благодарности
 

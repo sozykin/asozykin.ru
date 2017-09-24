@@ -7,7 +7,8 @@ permalink: /courses/projects
 
 ## Презентации
 
-1. [Введение](/assets/project-course/introduction.pdf).
+1. [Введение](/assets/project-course/01_introduction.pdf).
+2. [Что такое проблема](/assets/project-course/02_problem.pdf)?
 
 ## Проекты осеннего семестра 2017
 

@@ -9,7 +9,7 @@ permalink: /courses/nnpython
 
 ## Структура курса
 
-Курс остоит из видеолекций и практических работ. 
+Курс состоит из видеолекций и практических работ. 
 
 В **лекциях** изложены теоретические основы работы глубоких нейронных сетей и особенности их обучения, описаны популярные в настоящее время типы глубоких нейронных сетей (сверточные сети, сети долго-краткосрочной памяти (LSTM)), библиотеки для языка Python, реализующие глубокие нейронные сети ([Keras](https://keras.io/), [Theano](http://deeplearning.net/software/theano/), [TensorFlow](https://www.tensorflow.org/)), а также методы использования глубоких нейронных сетей для анализа изображений и текстов.
 
@@ -46,7 +46,7 @@ permalink: /courses/nnpython
 - [Использование GPU в Theano и Keras](/deep_learning/2017/04/20/How-to-use-gpu-with-theano-09.html).
 - [Установка Keras и TensorFlows с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
-## Дополнительные материалы и практические примеры
+## Практические примеры использования глубоких нейронных сетей
 
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
@@ -58,6 +58,10 @@ permalink: /courses/nnpython
 ## Примеры программ
 
 [https://github.com/sozykin/dlpython_course](https://github.com/sozykin/dlpython_course).
+
+## Дополнительные материалы
+
+1. [Математика глубоких нейронных сетей](/deep_learning/2017/08/31/Math-of-Deep-Learning.html). Список книг и статей для тех, кто хочет разобраться с математическими основами глубоких нейронных сетей.
 
 ## Благодарности
 

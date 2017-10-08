@@ -17,7 +17,7 @@ permalink: /courses/nnpython
 
 ## Материалы курса:
 
-1. [Введение](https://youtu.be/GX7qxV5nh5o).
+1. [Введение](/courses/nnpython-intro) ([видео](https://youtu.be/GX7qxV5nh5o)).
 2. [Лекция "Искусственные нейронные сети"](https://youtu.be/lACoEv1qe1U).
 3. [Лекция "Обучение нейронных сетей"](https://youtu.be/KunK-QcqgOg).
 4. [Лекция "Библиотеки для глубокого обучения"](https://youtu.be/9xfPb2hiqNY).

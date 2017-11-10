@@ -8,6 +8,8 @@ comments: true
 
 **Обновление от 08.05.2017**. *Программы обновлены на Keras версии 2*.
 
+**Обновление от 10.11.2017**. *Размерность изображений изменена на формат TensorFlow*.
+
 **Цель работы**: научится оценивать влияние гиперпараметров обучения (скорость обучения, количество эпох обучения, количество слоев в сети) на качество обучения нейронной сети.
 
 ## Предварительные сведения
@@ -18,9 +20,9 @@ comments: true
 
 ## Необходимое программное обеспечение
 
-Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда.
+Используется библиотека [Keras](https://keras.io/), а также [TensorFLow](https://www.tensorflow.org/) в качестве вычислительного бэкенда.
 
-[Инструкция по установке Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
+[Инструкция по установке Keras и TensorFlow с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
 ## Базовая версия программы
 
@@ -66,7 +68,7 @@ Y_test = np_utils.to_categorical(y_test, nb_classes)
 model = Sequential()
 # Первый сверточный слой
 model.add(Conv2D(32, (3, 3), padding='same',
-                        input_shape=(3, 32, 32), activation='relu'))
+                        input_shape=(32, 32, 3), activation='relu'))
 # Второй сверточный слой
 model.add(Conv2D(32, (3, 3), activation='relu', padding='same'))
 # Первый слой подвыборки

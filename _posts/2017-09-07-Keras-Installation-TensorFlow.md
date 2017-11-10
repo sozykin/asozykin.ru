@@ -15,17 +15,26 @@ comments: true
 
 Сначала необходимо установить Anaconda. Скачайте с [сайта Continuum Analytics](https://www.continuum.io/downloads) и установите версию Anaconda для своей операционной системы. Выбирайте Python версии 3.6.
 
-## Установка Keras и TensorFlow для CPU
+## Установка TensorFlow для CPU
 
-Если вы планируете обучать нейронные сети на центральном процессоре, то Keras и TensorFlow устанавливаются всего одной командой. Для Linux используйте команду:
+Для установки TensorFlow используйте команду:
+
+    conda install tensorflow
+
+TensorFlow для CPU установится автоматически со всеми необходимыми зависимостями. Проверяем, что установка прошла успешно:
+
+    python -c "import tensorflow; print(tensorflow.__version__)"
+    1.2.1
+
+## Установка Keras 
+
+После установки TensorFlow можно устанавливать Keras. Для Linux используйте команду:
 
     conda install keras
 
 В Windows Keras пока не входит в основной набор пакетов Anaconda, поэтому устанавливаем его из conda-forge:
 
     conda install -c conda-forge keras
-
-TensorFlow при этом установится автоматически, как и другие зависимости Keras.
 
 По-умолчанию после установки Keras будет сконфигурирован на работу с TensorFlow. На всякий случай проверим содержимое конфигурационного файла `.keras/keras.json` в домашнем каталоге пользователя:
 
@@ -68,32 +77,21 @@ TensorFlow при этом установится автоматически, к
 
     После установки Keras будет автоматически использовать версию TensorFlow для GPU. Ничего дополнительно настраивать не нужно.
 
-4. **Проверка доступности GPU в TensorFlow**. В отличие от Theano, TensorFlow в Keras не выдает диагностические сообщения о том, какое устройство используется для проведения расчетов. Проверить, видит ли TensorFlow GPU, можно следующим образом:
+4. **Проверка доступности GPU в TensorFlow**. TensorFlow выдает диагностические сообщения о том, какое устройство используется для расчетов. В отличие от Theano, эти сообщения не видны в Jupyter Notebook, их нужно искать в консоли сервера Jupyter. Примерный вид диагностических сообщений: 
         
-        from tensorflow.python.client import device_lib
-        print(device_lib.list_local_devices())
-
-    Результат работы команды, очищенный от диагностической информации:
-
-        [name: "/cpu:0"
-        device_type: "CPU"
-        memory_limit: 268435456
-        locality {
-        }
-        incarnation: 14765038030944951919
-        , name: "/gpu:0"
-        device_type: "GPU"
-        memory_limit: 54263808
-        locality {
-          bus_id: 1
-        }
-        incarnation: 4582639383682747371
-        physical_device_desc: "device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0"
-        ]
+        2017-11-10 21:01:19.946649: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+        name: GeForce GTX 1060
+        major: 6 minor: 1 memoryClockRate (GHz) 1.6705
+        pciBusID 0000:01:00.0
+        Total memory: 5.93GiB
+        Free memory: 5.41GiB
+        2017-11-10 21:01:19.946680: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+        2017-11-10 21:01:19.946685: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+        2017-11-10 21:01:19.946692: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
     
-    TensorFlow доступны два устройства: `cpu:0` и `gpu:0`. Модель GPU: GeForce GTX 1060. Keras по-умолчанию будет использовать GPU, никакие дополнительные настройки не нужны. Более того, я не знаю способа заставить Keras использовать CPU в TensorFlow, если доступен GPU. Если вы знаете, напишите в комментариях, пожалуйста.
+    TensorFlow использует устройство номер 0 с названием GeForce GTX 1060. Выводится также информация и тактовой частоте и объеме доступной памяти GPU.
 
-На этом установка для GPU завершена, можно запускать [примеры кода из курса](/courses/nnpython). Примеры работают как на CPU, так и на GPU, менять программы не нужно.
+    На этом установка для GPU завершена, можно запускать [примеры кода из курса](/courses/nnpython). Примеры работают как на CPU, так и на GPU, менять программы не нужно.
 
 Если у вас не получается установить Keras и TensorFlow, пишите свои вопросы в комментариях. Постараюсь помочь.
 

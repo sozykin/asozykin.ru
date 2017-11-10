@@ -5,6 +5,8 @@ date:   2016-12-25 16:00:00 +0500
 categories: deep_learning
 comments: true
 ---
+**Обновление от 10.11.2017**: *Все примеры курса ["Программирование глубоких нейронных сетей на Python"](http://www.asozykin.ru/courses/nnpython) переведены на TensorFlow в качестве бэкенда для Keras. Инструкция по [установке Keras с TensorFlow](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html)*.
+
 Для выполнения практических заданий по курсу ["Программирование глубоких нейронных сетей на Python"](http://www.asozykin.ru/courses/nnpython) необходимо установить библиотеку [Keras](https://keras.io/), а также один из вычислительных бекендов для этой библиотеки - [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/). Самый простой способ это сделать - установить диструбутив Python Anaconda и после этого установить все необходимые пакеты с помощью conda. 
 
 <!--more-->

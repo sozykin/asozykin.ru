@@ -11,7 +11,7 @@ permalink: /courses/nnpython
 
 Курс состоит из видеолекций и практических работ. 
 
-В **лекциях** изложены теоретические основы работы глубоких нейронных сетей и особенности их обучения, описаны популярные в настоящее время типы глубоких нейронных сетей (сверточные сети, сети долго-краткосрочной памяти (LSTM)), библиотеки для языка Python, реализующие глубокие нейронные сети ([Keras](https://keras.io/), [Theano](http://deeplearning.net/software/theano/), [TensorFlow](https://www.tensorflow.org/)), а также методы использования глубоких нейронных сетей для анализа изображений и текстов.
+В **лекциях** изложены теоретические основы работы глубоких нейронных сетей и особенности их обучения, описаны популярные в настоящее время типы глубоких нейронных сетей (сверточные сети, сети долго-краткосрочной памяти (LSTM)), библиотеки для языка Python, реализующие глубокие нейронные сети ([Keras](https://keras.io/), [TensorFlow](https://www.tensorflow.org/), [Theano](http://deeplearning.net/software/theano/)), а также методы использования глубоких нейронных сетей для анализа изображений и текстов.
 
 **Практические работы** содержат задания для самостоятельного выполнения на анализ открытых наборов данных ([MNIST](http://yann.lecun.com/exdb/mnist/), [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) и [IMDB Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/)) с использованием глубоких нейронных сетей и примеры программ, которые можно использовать в качества образца.
 
@@ -38,13 +38,13 @@ permalink: /courses/nnpython
 
 ## Необходимое программное обеспечение
 
-Используется библиотека [Keras](https://keras.io/), а также [Theano](http://deeplearning.net/software/theano/) или [TensorFlow](https://www.tensorflow.org/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 
+Используется библиотека [Keras](https://keras.io/), а также [TensorFlow](https://www.tensorflow.org/) или [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 
 
-Примеры кода протестированы на Python 3 и Theano. Инструкции по установке Keras:
+Примеры кода протестированы на Python 3 и TensorFlow. Инструкции по установке Keras:
 
+- [Установка Keras и TensorFlows с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 - [Установка Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 - [Использование GPU в Theano и Keras](/deep_learning/2017/04/20/How-to-use-gpu-with-theano-09.html).
-- [Установка Keras и TensorFlows с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
 ## Практические примеры использования глубоких нейронных сетей
 

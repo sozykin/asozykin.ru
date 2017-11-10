@@ -11,6 +11,8 @@ comments: true
 
 <!--more-->
 
+**Обновление от 10.11.2017**. *Размерность изображений изменена на формат TensorFlow*.
+
 # Исходные данные
 
 Формат исходных данных в соревнованиях Kaggle отличается от [стандартного формата MNIST Яна Лекуна](http://yann.lecun.com/exdb/mnist/). На Kaggle изображения MNIST представлены в виде обычных текстовых файлов, которые можно скачать на закладке [Data](https://www.kaggle.com/c/digit-recognizer/data) страницы соревнования. Данные включают два файла:
@@ -50,9 +52,9 @@ comments: true
 ```python
 # Выделяем данные для обучения
 x_train = train_dataset[:, 1:]
-# Переформатируем данные в 2D, бэкенд Theano
-x_train = x_train.reshape(x_train.shape[0], 1, 28, 28)
-input_shape = (1, 28, 28)
+# Переформатируем данные в 2D, бэкенд TensorFLow
+x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
+input_shape = (28, 28, 1)
 # Нормализуем данные
 x_train = x_train.astype("float32")
 x_train /= 255.0
@@ -105,8 +107,8 @@ model.fit(x_train, y_train, batch_size=200, epochs=10, verbose=2)
 ```python
 #Загружаем данные для предсказания
 test_dataset = np.loadtxt('test.csv', skiprows=1, delimiter=",")
-# Переформатируем данные в 2D, бэкенд Theano
-x_test = test_dataset.reshape(test_dataset.shape[0], 1, 28, 28)
+# Переформатируем данные в 2D, бэкенд TensorFLow
+x_test = test_dataset.reshape(test_dataset.shape[0], 28, 28, 1)
 x_test /= 255.0
 ```
 
@@ -147,7 +149,7 @@ np.savetxt('submission.csv', out, header="ImageId,Label",
 
 1. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](https://www.kaggle.com/c/digit-recognizer).
 2. [Учебный курс "Программирование глубоких нейронных сетей на Python"](/courses/nnpython).
-3. [Инструкция по установке Keras и Theano](/deep_learning/2016/12/25/Keras-Installation.html).
+3. [Инструкция по установке Keras и TensorFlow](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 3. [Полносвязная нейронная сеть для распознавания рукописных цифр MNIST](/courses/nnpython-lab1).
 4. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 5. [Репозиторий с примерами программ из статьи](https://github.com/sozykin/dlpython_course).

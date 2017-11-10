@@ -11,6 +11,8 @@ comments: true
 
 <!--more-->
 
+**Обновление от 10.11.2017**. *Размерность изображений изменена на формат TensorFlow*.
+
 # Архитектура сверточной нейронной сети для распознавания рукописных цифр
 
 Мы будем использовать сверточную нейронную сеть, которая состоит из 6 слоев:
@@ -46,9 +48,9 @@ img_rows, img_cols = 28, 28
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
 # Преобразование размерности изображений
-X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)
-X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols)
-input_shape = (1, img_rows, img_cols)
+X_train = X_train.reshape(X_train.shape[0], img_rows, img_cols, 1)
+X_test = X_test.reshape(X_test.shape[0], img_rows, img_cols, 1)
+input_shape = (img_rows, img_cols, 1)
 
 # Нормализация данных
 X_train = X_train.astype('float32')
@@ -91,13 +93,13 @@ print("Точность работы на тестовых данных: %.2f%%"
 
 Программу также можно найти в [репозитории примеров для курса](https://github.com/sozykin/dlpython_course).
 
-Программа рассчитана на бэкенд Theano. Если вы используете Tensorflow, то необходимо поменять формат хранения изображений:
+Программа рассчитана на бэкенд Tensorflow. Если вы используете Theano, то необходимо поменять формат хранения изображений:
 
 ```python
 # Преобразование размерности изображений
-X_train = X_train.reshape(X_train.shape[0], img_rows, img_cols, 1)
-X_test = X_test.reshape(X_test.shape[0], img_rows, img_cols, 1)
-input_shape = (img_rows, img_cols, 1)
+X_train = X_train.reshape(X_train.shape[0], 1, img_rows, img_cols)
+X_test = X_test.reshape(X_test.shape[0], 1, img_rows, img_cols)
+input_shape = (1, img_rows, img_cols)
 ```
 
 В качестве функции активации все слои, кроме последнего, используют ReLU. Последний слой выдает значения вероятности появления каждой цифры, поэтому используется функция активации Softmax (эта функция обеспечивает, что сумма выходных значений всех нейронов слоя равна единице).

@@ -3,6 +3,10 @@ layout: page
 title: Публикации
 permalink: /publications/
 ---
+[ORCID](http://orcid.org/0000-0002-5018-9433), ResearcherID: [F-1688-2017](http://www.researcherid.com/rid/F-1688-2017), Scopus Author ID: [57023976400](http://www.scopus.com/inward/authorDetails.url?authorID=57023976400&partnerID=MN8TOARS).
+
+1. Antti Knutas, Ahmed Seffah, Lene Sorensen, Andrey Sozykin, Fawaz Al-Zaghoul, Alain Abran. Crossing the Borders and the Cultural Gaps for Educating PhDs in Software Engineering // 30th IEEE Conference on Software Engineering Education and Training (CSEE&T), At Savannah, USA. 2017.
+
 1. Andrey Sozykin, Timofei Epanchintsev, Vladimir Zverev, Svyatoslav Khamzin, Aleksandr Bersenev. [Automated Parallel Simulation of Heart Electrical Activity Using Finite Element Method](http://dx.doi.org/10.1007/978-3-319-49956-7_29) // Lecture Notes in Computer Science, vol. 10049, 2016, pp. 365-372.
 
 1. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Vladimir Zverev. [Parallel Simulation of Scroll Wave Dynamics in the Human Heart Using the FEniCS Framework](http://www.sciencedirect.com/science/article/pii/S1877050916326771/pdf?md5=f2fef2c4b71381599201bf7f1ff02c0d&pid=1-s2.0-S1877050916326771-main.pdf) // Procedia Computer Science, Volume 101, 2016, Pages 68-75. 

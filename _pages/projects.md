@@ -24,11 +24,11 @@ permalink: /projects/
 
 3. [Летняя суперкомпьютерная академия](/projects/hpc-academy).
 
-4. Англоязычная стажировка по параллельным вычислениям.
+4. [Англоязычная стажировка по параллельным вычислениям](https://sites.google.com/view/urfu-cs-internship/home).
 
 
 ## Организация мероприятий
 
 1. [Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists (Ural-PDC)](http://ural-pdc.org/).
 
-2. [Уральская школа параллельного программирования](http://www.parallel-school.ru/).
+2. [International Workshop on Innovative Approaches in Computer Science within Higher Education](http://innocse.org/).

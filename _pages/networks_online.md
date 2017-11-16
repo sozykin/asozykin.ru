@@ -123,7 +123,7 @@ permalink: /courses/networks_online
 4. [Лекция "Автоматическое назначение адресов IPv6"](https://youtu.be/GZTqZQVSY1A).
 5. [Лекция "Протокол NDP"](https://youtu.be/e50Xcxeol4E).
 6. [Практика "Протокол NDP"](https://youtu.be/3Gxv7VRa8xQ).
-
+7. [Лекция "Протоколы маршрутизации"](https://youtu.be/MSg8gx3wnfQ).
 
 ## Рекомендуемая литература
 

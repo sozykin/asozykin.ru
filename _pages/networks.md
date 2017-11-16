@@ -68,6 +68,8 @@ permalink: /courses/networks
 17. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg).
 18. [Практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
 19. [Лекция "Автоматическое назначение адресов IPv6"](https://youtu.be/GZTqZQVSY1A).
+20. [Лекция "Протокол NDP"](https://youtu.be/e50Xcxeol4E).
+21. [Практика "Протокол NDP"](https://youtu.be/3Gxv7VRa8xQ).
 
 ### Транспортный уровень
 

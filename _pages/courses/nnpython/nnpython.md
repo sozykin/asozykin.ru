@@ -45,6 +45,7 @@ permalink: /courses/nnpython
 Примеры кода протестированы на Python 3 и TensorFlow. Инструкции по установке Keras:
 
 - [Установка Keras и TensorFlows с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
+- [Использование Keras в TensorFlow 1.4](/deep_learning/2017/12/14/How-to-Use-Keras-in-TensorFlow-14.html).
 - [Установка Keras и Theano с дистрибутивом Anaconda](/deep_learning/2016/12/25/Keras-Installation.html).
 - [Использование GPU в Theano и Keras](/deep_learning/2017/04/20/How-to-use-gpu-with-theano-09.html).
 

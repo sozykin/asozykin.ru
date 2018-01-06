@@ -17,7 +17,9 @@ permalink: /courses/nnpython
 
 **Практические работы** содержат задания для самостоятельного выполнения на анализ открытых наборов данных ([MNIST](http://yann.lecun.com/exdb/mnist/), [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) и [IMDB Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/)) с использованием глубоких нейронных сетей и примеры программ, которые можно использовать в качества образца.
 
-## Материалы курса:
+## Материалы курса
+
+### Основы обучения глубоких нейронных сетей
 
 1. [Введение](/courses/nnpython-intro) ([видео](https://youtu.be/GX7qxV5nh5o)).
 2. [Лекция "Искусственные нейронные сети"](https://youtu.be/lACoEv1qe1U).
@@ -31,13 +33,22 @@ permalink: /courses/nnpython
 9. [Лекция "Сверточные нейронные сети"](https://youtu.be/52U4BG0ENiM).
 10. [Лекция "Распознавание объектов на изображениях"](https://youtu.be/5GdtghjJ3-U).
 11. [Практическая работа "Распознавание объектов на изображениях с помощью Keras"](/courses/nnpython-lab2).
-12. [Лекция "Анализируем изображения с помощью нейронных сетей"](/deep_learning/2017/06/20/Image-Classification-Using-Neural-Networks.html).
 12. [Лекция "Рекуррентные нейронные сети"](https://youtu.be/38iGggnbbsQ).
 13. [Лекция "Анализ текстов с помощью рекуррентных нейронных сетей"](https://youtu.be/7Tx_cewjhGQ). 
 14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3).
 15. [Лекция "Использование GPU для ускорения обучения нейронной сети"](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
-16. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
-17. [Лекция "Как подготовить собственный набор изображений для обучения нейронной сети в Keras"](https://youtu.be/_bH2oh75Kdo).
+
+### Глубокие нейронные сети для задач компьютерного зрения
+
+1. [Лекция "Анализируем изображения с помощью нейронных сетей"](/deep_learning/2017/06/20/Image-Classification-Using-Neural-Networks.html).
+2. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
+3. [Лекция "Как подготовить собственный набор изображений для обучения нейронной сети в Keras"](https://youtu.be/_bH2oh75Kdo).
+4. [Лекция "Перенос обучения (Transfer Learning)"](https://youtu.be/xpmOauWBgCQ).
+5. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
+
+### Анализ текстов с помощью глубоких нейронных сетей
+
+Новый раздел, скоро будут подготовлены материалы.
 
 ## Необходимое программное обеспечение
 
@@ -54,10 +65,6 @@ permalink: /courses/nnpython
 
 1. [Сверточная нейронная сеть для распознавания рукописных цифр MNIST](/deep_learning/2017/05/08/CNN-for-MNIST.html).
 2. [Соревнования по распознаванию рукописных цифр MNIST на Kaggle](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
-
-## Проекты по глубоким нейронным сетям
-
-1. [Распознавание человека на фотографии](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 
 ## Примеры программ
 

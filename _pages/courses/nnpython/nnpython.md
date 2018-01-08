@@ -21,7 +21,7 @@ permalink: /courses/nnpython
 
 ### Основы обучения глубоких нейронных сетей
 
-1. [Введение](/courses/nnpython-intro) ([видео](https://youtu.be/GX7qxV5nh5o)).
+1. [Введение](/courses/nnpython-intro).
 2. [Лекция "Искусственные нейронные сети"](https://youtu.be/lACoEv1qe1U).
 3. [Лекция "Обучение нейронных сетей"](https://youtu.be/KunK-QcqgOg).
 4. [Лекция "Библиотеки для глубокого обучения"](https://youtu.be/9xfPb2hiqNY).
@@ -43,7 +43,7 @@ permalink: /courses/nnpython
 1. [Лекция "Анализируем изображения с помощью нейронных сетей"](/deep_learning/2017/06/20/Image-Classification-Using-Neural-Networks.html).
 2. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
 3. [Лекция "Как подготовить собственный набор изображений для обучения нейронной сети в Keras"](/deep_learning/2018/01/06/How-to-Prepare-Image-Dataset-for-Keras.html).
-4. [Лекция "Перенос обучения (Transfer Learning)"](https://youtu.be/xpmOauWBgCQ).
+4. [Лекция "Перенос обучения (Transfer Learning)"](/deep_learning/2018/01/08/Transfer-Learning-in-Keras.html).
 5. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 
 ### Анализ текстов с помощью глубоких нейронных сетей

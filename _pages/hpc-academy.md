@@ -11,7 +11,7 @@ permalink: /projects/hpc-academy
 - [Санкт-Петербургский политехнический университет (г.Санкт-Петербург)](http://www.scc.spbstu.ru/index.php/19-isca/45-isca).
 - [Северный (Арктический) федеральный университет имени М.В. Ломоносова](http://narfu.ru/life/news/classifieds/?ELEMENT_ID=290118).
 
-# Материалы трека Летней Суперкомпьютерной Академии в УрФУ
+## Материалы трека Летней Суперкомпьютерной Академии в УрФУ
 
 [Расписание трека в УрФУ](/assets/hpc-academy/schedule.pdf).
 
@@ -24,7 +24,7 @@ permalink: /projects/hpc-academy
 
 [Репозиторий с примерами кода](https://github.com/sozykin/dlpython_course).
 
-# Материалы для подготовки к тесту
+## Материалы для подготовки к тесту
 
 1. Презентация [Математические основы параллельных вычислений](http://academy.hpc-russia.ru/files/vvv_math_foundations.pdf). чл. -корр. РАН, проф. В.В. Воеводин.
 2. Презентация [Эффективность параллельных программ](http://academy.hpc-russia.ru/files/antonov_efficiency.pdf). А.С. Антонов, вед. н.с. НИВЦ МГУ, к.ф.-м.н.
@@ -33,7 +33,7 @@ permalink: /projects/hpc-academy
 5. Презентация [Технология OpenMP](https://yadi.sk/i/a_uaC4lHfiWTw). А.В.Созыкин, УрФУ.
 6. Презентация [Технология MPI](https://yadi.sk/i/ogYp1MYgk48Ba). А.В.Созыкин, УрФУ.
 
-# Полезные ссылки для проектов
+## Полезные ссылки для проектов
 
 1. [Building powerful image classification models using very little data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html).
 

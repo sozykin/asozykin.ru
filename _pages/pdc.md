@@ -13,8 +13,8 @@ redirect_from: /courses/hadoop
 2. Многопоточное программирование, часть 1 ([С++](/assets/presentations/hpc_course/01-ConcurrencyCPP.pdf), [Java](/assets/presentations/hpc_course/01-ConcurrencyJava.pdf)).
 3. Многопоточное программирование, часть 2 ([С++](/assets/presentations/hpc_course/02-ConcurrencyCPP.pdf), [Java](/assets/presentations/hpc_course/02-ConcurrencyJava.pdf)).
 4. [Оборудование параллельных вычислительных систем](/assets/presentations/hpc_course/03-Hardware.pdf).
-5. [Векторизация](https://yadi.sk/i/DCk-eSMjfiWPq).
-6. [Основы параллельных вычислений](https://yadi.sk/i/PSJUZbiqfiWSC).
+5. [Векторизация](/assets/presentations/hpc_course/04-Vectorization.pdf).
+6. [Основы параллельных вычислений](/assets/presentations/hpc_course/05-ParallelComputing.pdf).
 7. [Технология OpenMP](https://yadi.sk/i/a_uaC4lHfiWTw).
 8. [Технология MPI](https://yadi.sk/i/ogYp1MYgk48Ba).
 9. [MapReduce и Hadoop, часть 1](https://yadi.sk/i/cVwxkgplk48Gq).

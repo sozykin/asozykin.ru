@@ -9,7 +9,7 @@ comments: true
 
 <!--more-->
 
-# Установка Microsoft Visual Studio
+## Установка Microsoft Visual Studio
 
 CUDA содержит компилятор nvcc, который может генерировать код для GPU, но не для CPU. Поэтому для работы CUDA нужен компилятор для CPU. В Linux для этой цели используется gcc, а в Windows - Microsoft Visual Studio. К сожалению, под Windows CUDA не может использовать gcc, даже если вы его [установили вместе с Theano](/deep_learning/2016/12/25/Keras-Installation.html). Поэтому необходимо обязательно установть Microsoft Visual Studio.
 
@@ -21,15 +21,15 @@ CUDA 8 [поддерживает Visual Studio](http://docs.nvidia.com/cuda/cuda
 
 После установки добавьте путь к компилятору Visual Studio (cl.exe) в переменную PATH. 
 
-# Установка CUDA 8
+## Установка CUDA 8
 
 CUDA 8 нужно скачать с [сайта NVIDIA](https://developer.nvidia.com/cuda-downloads). Для Windows CUDA распространяется в виде запускаемого exe файла, в котором есть драйвер для GPU с поддержкой CUDA и сама CUDA 8. Просто запустите скачанный файл и установите все по-умолчанию.
 
-# Перезагрузка
+## Перезагрузка
 
 После установки Microsoft Visual Studio и CUDA 8 компьютер необходимо перезагрузить.
 
-# Проверка установки
+## Проверка установки
 
 Для проверки работоспособности CUDA запустите утилиту nvidia-smi (находится в каталоге C:\Program Files\NVIDIA Corporation\NVSMI). Вывод должен выглядеть примерно так:
 
@@ -59,7 +59,7 @@ Wed Mar 08 21:27:54 2017
 +-----------------------------------------------------------------------------+
 ```
 
-# Полезные ссылки
+## Полезные ссылки
 
 1. [NVIDIA CUDA (Compute Unified Device Architecture)](http://www.nvidia.ru/object/cuda-parallel-computing-ru.html).
 2. [Загрузка CUDA 8](https://developer.nvidia.com/cuda-downloads).

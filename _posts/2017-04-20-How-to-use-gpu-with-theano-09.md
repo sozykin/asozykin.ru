@@ -37,7 +37,7 @@ Mapped name None to device cuda: GeForce GTX 1060 (0000:01:00.0)
 
 Основное преимущество нового бэкенда - возможность работы с несколькими GPU. К сожалению, пока я не успел этого попробовать. Но обязательно сделаю в ближайшее время и напишу, что получилось. 
 
-# Полезные ссылки
+## Полезные ссылки
 
 1. [Theano Tutorial. Using the GPU](http://deeplearning.net/software/theano/tutorial/using_gpu.html).
 2. [Установка CUDA в Ubuntu 16.04](/deep_learning/2017/02/26/How-to-install-cuda-8-on-Ubuntu-16-04.html).

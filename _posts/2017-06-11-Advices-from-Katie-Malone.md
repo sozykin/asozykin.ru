@@ -19,7 +19,7 @@ comments: true
 
 Успехов в изучении Data Science!
 
-# Полезные ссылки
+## Полезные ссылки
 
 1. Подкаст [Linear Digressions](http://lineardigressions.com/).
 2. Курс Udacity [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120).

@@ -9,7 +9,7 @@ comments: true
 
 <!--more-->
 
-# Удаление предыдущих версий CUDA и драйверов NVIDIA
+## Удаление предыдущих версий CUDA и драйверов NVIDIA
 
 Если у вас на компьютере была установлена предыдущая версию CUDA или драйверы NVIDIA, то их необходимо удалить.
 
@@ -21,7 +21,7 @@ comments: true
 
     sudo nvidia-uninstall
     
-# Установка драйвера NVIDIA
+## Установка драйвера NVIDIA
 
 Устанавливать драйвер NVIDIA GPU удобнее всего из репозитория [Proprietary GPU Drivers](https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa). 
 
@@ -29,7 +29,7 @@ comments: true
     sudo apt-get update
     sudo apt-get install nvidia-375
 
-# Установка CUDA 8
+## Установка CUDA 8
 
 В репозитории Ubuntu сейчас есть только CUDA 7.5. Так как мы хотим использовать CUDA 8, то придется устанавливать вручную. Загрузите запускаемый файл (runfile) CUDA 8 с [сайта NVIDIA](https://developer.nvidia.com/cuda-downloads). 
 
@@ -39,7 +39,7 @@ comments: true
 
 CUDA 8 будет установлена в каталог `/usr/local/cuda-8.0`. Дополнительно будет создана символическая ссылка `/usr/local/cuda`. Рекомендуется использовать именно эту ссылку, чтобы в будущем можно было быстро изменить используемую версию CUDA.
 
-# Настройка параметров окружения
+## Настройка параметров окружения
 
 После установки необходимо прописать пути к исполняемым файлам и библиотекам CUDA. Для этого создаем файл `/etc/profile.d/cuda.sh` и записываем туда следующее:
     
@@ -55,15 +55,15 @@ CUDA 8 будет установлена в каталог `/usr/local/cuda-8.0`
 
     sudo ldconfig
 
-# Перезагрузка
+## Перезагрузка
 
 На этом установка завершена. Необходимо перезагрузить компьютер, чтобы можно было использовать CUDA.
 
-# Итоги
+## Итоги
 
 Мы рассмотрели, как устанавливать CUDA 8 на Ubuntu 16.06. В следующих статьях я расскажу о том, как использовать CUDA для ускорения обучения нейронных сетей в Theano и Tensorflow.
 
-# Ссылки
+## Ссылки
 
 1. [NVIDIA CUDA (Compute Unified Device Architecture)](http://www.nvidia.ru/object/cuda-parallel-computing-ru.html).
 2. [Загрузка CUDA 8](https://developer.nvidia.com/cuda-downloads).

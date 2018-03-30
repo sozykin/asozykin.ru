@@ -95,13 +95,14 @@ TensorFlow для CPU установится автоматически со в�
 
 Если у вас не получается установить Keras и TensorFlow, пишите свои вопросы в комментариях. Постараюсь помочь.
 
+P.S. Если такой способ установки Keras и TensorFlow у вас не работает, попробуйте [альтернативный вариант установки с помощью pip](/deep_learning/2018/03/30/TensorFlow-Anaconda-Pip-Install.html).
+
 ## Дополнительные ссылки
 
 1. Курс ["Программирование глубоких нейронных сетей на Python"](http://www.asozykin.ru/courses/nnpython).
 2. Инструкция по установке [Keras с Theano](/deep_learning/2016/12/25/Keras-Installation.html).
-3. Установка [CUDA 8 в Windows 10](/deep_learning/2017/03/08/How-to-install-cuda-8-on-Windows-10.html).
-4. Установка [CUDA 8 в Ubuntu 16.04](/deep_learning/2017/02/26/How-to-install-cuda-8-on-Ubuntu-16-04.html).
-5. [Использование GPU в Theano и Keras](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
-6. [Библиотека cuDNN](/deep_learning/2017/03/20/cuDNN-with-theano-and-keras.html).
+3. [Использование GPU в Theano и Keras](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
+4. [Библиотека cuDNN](/deep_learning/2017/03/20/cuDNN-with-theano-and-keras.html).
+5. [Установка TensorFlow в Anaconda с помощью pip](/deep_learning/2018/03/30/TensorFlow-Anaconda-Pip-Install.html).
      
 

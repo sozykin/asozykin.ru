@@ -9,7 +9,7 @@
 title: Андрей Созыкин
 email: sozykin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Консалтинг в Data Science и Big Data.
+  Занимаюсь консалтингом в Data Science и Big Data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.asozykin.ru" # the base hostname & protocol for your site
 enforce_ssl: www.asozykin.ru

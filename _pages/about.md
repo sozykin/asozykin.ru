@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Работа
 
-1. Независимый консультант по Data Science и Big Data.
+1. [Банк Точка](https://tochka.com). Программист (большие данные, машинное обучение), Scrum Master. 
 2. Сертифицированный преподаватель [NVIDIA Deep Learning Institute](http://www.nvidia.ru/dli).
 
 ![NVIDIA Deep Learning Institute Certified Instructor](/assets/images/dlici.png)

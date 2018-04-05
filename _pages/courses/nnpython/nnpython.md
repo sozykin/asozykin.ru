@@ -27,12 +27,12 @@ permalink: /courses/nnpython
 4. [Лекция "Библиотеки для глубокого обучения"](https://youtu.be/9xfPb2hiqNY).
 5. [Лекция "Распознавание рукописных цифр"](https://youtu.be/0ImpTjNeWGo).
 6. [Лекция "Анализ качества обучения нейронной сети"](https://youtu.be/ykDH66b0N_4).
-7. [Практическая работа "Распознование рукописных цифр из набора данных MNIST на Keras"](/courses/nnpython-lab1).
+7. [Практическая работа "Распознование рукописных цифр из набора данных MNIST на Keras"](/courses/nnpython-lab1) ([Collaboratory](https://drive.google.com/file/d/1VeEeArZAekRLCx2AwZw1v9_FyA58gaaR/view?usp=sharing)).
 7. [Лекция "Решение задачи регрессии"](https://youtu.be/hgvnvWCoDYo).
 8. [Лекция "Сохранение обученной нейронной сети"](/deep_learning/2017/02/12/How-to-save-trained-deep-net.html).
 9. [Лекция "Сверточные нейронные сети"](https://youtu.be/52U4BG0ENiM).
 10. [Лекция "Распознавание объектов на изображениях"](https://youtu.be/5GdtghjJ3-U).
-11. [Практическая работа "Распознавание объектов на изображениях с помощью Keras"](/courses/nnpython-lab2).
+11. [Практическая работа "Распознавание объектов на изображениях с помощью Keras"](/courses/nnpython-lab2) ([Collaboratory](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing)).
 12. [Лекция "Рекуррентные нейронные сети"](https://youtu.be/38iGggnbbsQ).
 13. [Лекция "Анализ текстов с помощью рекуррентных нейронных сетей"](https://youtu.be/7Tx_cewjhGQ). 
 14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3).
@@ -60,6 +60,8 @@ permalink: /courses/nnpython
 
 - Установка Keras и TensorFlows с дистрибутивом Anaconda. [Вариант 1](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html), [вариант 2](/deep_learning/2018/03/30/TensorFlow-Anaconda-Pip-Install.html).
 - [Использование Keras в TensorFlow 1.4](/deep_learning/2017/12/14/How-to-Use-Keras-in-TensorFlow-14.html).
+
+Также для запуска примеров кода можно использовать [платформу Google Collaboratory](/deep_learning/2018/04/04/Google-Collaboratory-for-Deep-Learning.html), где все необходимые библиотеки уже установлены. Google предоставляет Collaboratory бесплатно.
 
 ## Практические примеры использования глубоких нейронных сетей
 

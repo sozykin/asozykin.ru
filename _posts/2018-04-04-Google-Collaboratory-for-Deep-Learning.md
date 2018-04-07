@@ -5,6 +5,7 @@ date:   2018-04-04 20:00:00 +0500
 categories: deep_learning
 comments: true
 ---
+{% include youtube-player.html id="HWN_DVRB1G4" %}
 
 Если у вас не получается установить Keras и TensorFlow, или у вас нет GPU от NVIDIA, то для вас есть отличная новость от Google. Для распространения технологий машинного обучения и глубоких нейронных сетей Google сделал доступной свою облачную платформу [Collaboratory](https://research.google.com/colaboratory/faq.html). Эта среда, похожая на Jupyter Notebook, в которой уже установлены библиотеки TensorFlow и Keras, а также доступны [GPU NVIDIA K80](https://www.nvidia.com/en-us/data-center/tesla-k80/). Есть все, что нужно для обучения глубоких нейросетей. Использование этой платформы полностью бесплатно. Давайте рассмотрим, как можно выполнять заданий курса "[Программирование глубоких нейронных сетей на Python](/courses/nnpython)" на Collaboratory.
 

@@ -7,7 +7,7 @@ comments: true
 ---
 {% include youtube-player.html id="HWN_DVRB1G4" %}
 
-Если у вас не получается установить Keras и TensorFlow, или у вас нет GPU от NVIDIA, то для вас есть отличная новость от Google. Для распространения технологий машинного обучения и глубоких нейронных сетей Google сделал доступной свою облачную платформу [Collaboratory](https://research.google.com/colaboratory/faq.html). Эта среда, похожая на Jupyter Notebook, в которой уже установлены библиотеки TensorFlow и Keras, а также доступны [GPU NVIDIA K80](https://www.nvidia.com/en-us/data-center/tesla-k80/). Есть все, что нужно для обучения глубоких нейросетей. Использование этой платформы полностью бесплатно. Давайте рассмотрим, как можно выполнять заданий курса "[Программирование глубоких нейронных сетей на Python](/courses/nnpython)" на Collaboratory.
+Если у вас не получается установить Keras и TensorFlow, или у вас нет GPU от NVIDIA, то для вас есть отличная новость от Google. Для распространения технологий машинного обучения и глубоких нейронных сетей Google сделал доступной свою облачную платформу [Collaboratory](https://research.google.com/colaboratory/faq.html). Эта среда, похожая на Jupyter Notebook, в которой уже установлены библиотеки TensorFlow и Keras, а также доступны [GPU NVIDIA K80](http://www.nvidia.ru/object/tesla-k80-ru.html). Есть все, что нужно для обучения глубоких нейросетей. Использование этой платформы полностью бесплатно. Давайте рассмотрим, как можно выполнять заданий курса "[Программирование глубоких нейронных сетей на Python](/courses/nnpython)" на Collaboratory.
 
 <!--more-->
 
@@ -75,6 +75,12 @@ comments: true
 
 После смены Runtime для вас создастся новая виртуальная машина с GPU. На ней придется заново выполнять все команды ноутбука, так что рекомендую менять Runtime сразу после открытия ноутбука.
 
+Модель GPU в виртуальной машине можно узнать с помощью [файловой системы `/proc`](http://download.nvidia.com/XFree86/Linux-x86/304.132/README/procinterface.html).
+
+![Модель GPU в Collaboratory](/assets/dl/colab_gpu_model.jpg)
+
+Используется [GPU Tesla K80](http://www.nvidia.ru/object/tesla-k80-ru.html). Достаточно мощный ускоритель, хотя и не последняя модель.
+
 Обучение глубоких нейронных сетей на GPU выполняется гораздо быстрее, чем на CPU. Для обучения одной эпох сверточной нейронной сети для распознавания объектов CIFAR-10 нужно примерно 23 секунды.
 
 ![Обучение на GPU в Collaboratory](/assets/dl/colab_training_gpu.jpg)
@@ -132,7 +138,7 @@ files.download("cifar10_model.h5")
 
 ## Итоги
 
-[Google Collaboratory](https://colab.research.google.com/) -- это очень удобная облачная платформа для обучения глубоких нейронных сетей. Вы получаете ноутбук, похожий на Jupyter, в котором установлены Keras, TensorFlow и другие полезные библиотеки машинного обучения, а также доступен GPU. В этой среде можно очень быстро начать обучать нейронные сети. Не нужно ничего дополнительно устанавливать, все уже готово к работе. И самое главное, это абсолютно бесплатно!
+[Google Collaboratory](https://colab.research.google.com/) -- это очень удобная облачная платформа для обучения глубоких нейронных сетей. Вы получаете ноутбук, похожий на Jupyter, в котором установлены Keras, TensorFlow и другие полезные библиотеки машинного обучения, а также доступен GPU Tesla K80. В этой среде можно очень быстро начать обучать нейронные сети. Не нужно ничего дополнительно устанавливать, все уже готово к работе. И самое главное, это абсолютно бесплатно!
 
 При работе с Collaboratory нужно учитывать некоторые особенности, связанные с тем, что используется виртуальна машина в облаке. Во-первых, при каждом запуске нужно заново загружать данные для обучения нейронной сети на виртуальную машину. Во-вторых, после обучения нейронной сети нужно ее сохранить не только на диски виртуальной машины, но и скачать на свой компьютер. Для этого можно использовать модуль `google.colab`. Если не скачать обученную нейронную сеть себе, то она будет удалена во время остановки виртуальной машины.
 
@@ -144,7 +150,8 @@ files.download("cifar10_model.h5")
 
 1. Платформа [Google Collaboratory](https://colab.research.google.com/).
 2. [Распознавание объектов на изображениях из набора данных CIFAR-10 в Google Collaboratory](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing). 
-2. [Распознавание рукописных цифр из набора данных MNIST в Google Collaboratory](https://drive.google.com/file/d/1VeEeArZAekRLCx2AwZw1v9_FyA58gaaR/view?usp=sharing). 
+2. [Распознавание рукописных цифр из набора данных MNIST в Google Collaboratory](https://drive.google.com/file/d/11OmSvPZvkEiALlLhMJRo0kgHUv1mpepf/view?usp=sharing).
+2. [Оценка стоимости недвижимости с помощью нейронной сети в Google Collaboratory](https://drive.google.com/file/d/1F5EoQmzHJ9GIxIFHi6AxBhBwpTvbJWa0/view?usp=sharing).
 5. [Сохранение обученной нейронной сети в Keras](/deep_learning/2017/02/12/How-to-save-trained-deep-net.html).
 5. Учебный курс "[Программирование глубоких нейронных сетей на Python](/courses/nnpython)".
 

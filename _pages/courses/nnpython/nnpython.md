@@ -35,7 +35,7 @@ permalink: /courses/nnpython
 11. [Практическая работа "Распознавание объектов на изображениях с помощью Keras"](/courses/nnpython-lab2) ([ноутбук в Colaboratory](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing)).
 12. [Лекция "Рекуррентные нейронные сети"](https://youtu.be/38iGggnbbsQ).
 13. [Лекция "Анализ текстов с помощью рекуррентных нейронных сетей"](https://youtu.be/7Tx_cewjhGQ). 
-14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3).
+14. [Практическая работа "Определение тональности отзывов на фильмы с помощью Keras"](/courses/nnpython-lab3) ([ноутбук в Colaboratory](https://drive.google.com/file/d/1ZpA5rZhYBy9HlJbNU2m3Jzl6iN5_Y6cf/view?usp=sharing)).
 15. [Лекция "Использование GPU для ускорения обучения нейронной сети"](/deep_learning/2017/03/11/How-to-use-gpu-with-theano.html).
 
 ### Глубокие нейронные сети для задач компьютерного зрения
@@ -44,7 +44,7 @@ permalink: /courses/nnpython
 2. [Лекция "Предварительно обученные нейронные сети в Keras"](/deep_learning/2017/06/06/Keras-Pretrained-Networks.html).
 3. [Лекция "Как подготовить собственный набор изображений для обучения нейронной сети в Keras"](/deep_learning/2018/01/06/How-to-Prepare-Image-Dataset-for-Keras.html).
 4. [Лекция "Перенос обучения (Transfer Learning)"](/deep_learning/2018/01/08/Transfer-Learning-in-Keras.html).
-5. [Практика "Практика: Распознавание собак и кошек на изображениях"](/courses/nnpython-lab4).
+5. [Практика "Распознавание собак и кошек на изображениях"](/courses/nnpython-lab4).
 6. [Лекция "Тонкая настройка нейронной сети"](/deep_learning/2018/04/02/Fine-Tuning-in-Keras.html).
 7. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 

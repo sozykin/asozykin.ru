@@ -152,6 +152,7 @@ files.download("cifar10_model.h5")
 2. [Распознавание объектов на изображениях из набора данных CIFAR-10 в Google Colaboratory](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing). 
 2. [Распознавание рукописных цифр из набора данных MNIST в Google Colaboratory](https://drive.google.com/file/d/11OmSvPZvkEiALlLhMJRo0kgHUv1mpepf/view?usp=sharing).
 2. [Оценка стоимости недвижимости с помощью нейронной сети в Google Colaboratory](https://drive.google.com/file/d/1F5EoQmzHJ9GIxIFHi6AxBhBwpTvbJWa0/view?usp=sharing).
+3. [Оценка тональности отзывов на фильмы](https://drive.google.com/file/d/1ZpA5rZhYBy9HlJbNU2m3Jzl6iN5_Y6cf/view?usp=sharing).
 5. [Сохранение обученной нейронной сети в Keras](/deep_learning/2017/02/12/How-to-save-trained-deep-net.html).
 5. Учебный курс "[Программирование глубоких нейронных сетей на Python](/courses/nnpython)".
 

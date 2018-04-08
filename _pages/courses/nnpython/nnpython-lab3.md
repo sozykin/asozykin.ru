@@ -24,6 +24,8 @@ comments: true
 
 [Инструкция по установке Keras и TensorFlow с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
+Также можно воспользоваться бесплатной облачной платформой для машинного обучения [Google Colaboratory](/deep_learning/2018/04/04/Google-Colaboratory-for-Deep-Learning.html), ссылка на [ноутбук с базовой версией программы](https://drive.google.com/file/d/1ZpA5rZhYBy9HlJbNU2m3Jzl6iN5_Y6cf/view?usp=sharing).
+
 ## Базовая версия программы
 
 Базовая версия программы, которая реализует обучение нейронной сети для определения тональности рецензий на фильмы.

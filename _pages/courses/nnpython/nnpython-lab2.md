@@ -24,7 +24,7 @@ comments: true
 
 [Инструкция по установке Keras и TensorFlow с дистрибутивом Anaconda](/deep_learning/2017/09/07/Keras-Installation-TensorFlow.html).
 
-Также можно воспользоваться бесплатной облачной платформой для машинного обучения [Google Collaboratory](/deep_learning/2018/04/04/Google-Collaboratory-for-Deep-Learning.html), ссылка на [ноутбук с базовой версией программы](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing).
+Также можно воспользоваться бесплатной облачной платформой для машинного обучения [Google Colaboratory](/deep_learning/2018/04/04/Google-Colaboratory-for-Deep-Learning.html), ссылка на [ноутбук с базовой версией программы](https://drive.google.com/file/d/1nA3KIasI3DT4E9DsMiiPDoqFFiwapsme/view?usp=sharing).
 
 ## Базовая версия программы
 

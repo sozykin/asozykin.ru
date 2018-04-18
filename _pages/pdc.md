@@ -15,8 +15,8 @@ redirect_from: /courses/hadoop
 4. [Оборудование параллельных вычислительных систем](/assets/presentations/hpc_course/03-Hardware.pdf).
 5. [Векторизация](/assets/presentations/hpc_course/04-Vectorization.pdf).
 6. [Основы параллельных вычислений](/assets/presentations/hpc_course/05-ParallelComputing.pdf).
-7. [Технология OpenMP](https://yadi.sk/i/a_uaC4lHfiWTw).
-8. [Технология MPI](https://yadi.sk/i/ogYp1MYgk48Ba).
+7. [Технология OpenMP](/assets/presentations/hpc_course/06-OpenMP.pdf).
+8. [Технология MPI](/assets/presentations/hpc_course/07-MPI.pdf).
 9. [MapReduce и Hadoop, часть 1](https://yadi.sk/i/cVwxkgplk48Gq).
 10. [MapReduce и Hadoop, часть 2](https://yadi.sk/i/LCT-aaq_k48NN).
 11. [Экосистема Hadoop](https://yadi.sk/i/XSkdXgu8k48Rj)

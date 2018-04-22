@@ -45,8 +45,9 @@ permalink: /courses/nnpython
 3. [Лекция "Как подготовить собственный набор изображений для обучения нейронной сети в Keras"](/deep_learning/2018/01/06/How-to-Prepare-Image-Dataset-for-Keras.html).
 4. [Лекция "Перенос обучения (Transfer Learning)"](/deep_learning/2018/01/08/Transfer-Learning-in-Keras.html).
 5. [Практика "Распознавание собак и кошек на изображениях"](/courses/nnpython-lab4).
-6. [Лекция "Тонкая настройка нейронной сети"](/deep_learning/2018/04/02/Fine-Tuning-in-Keras.html).
+6. [Лекция "Тонкая настройка нейронной сети (Fine Tuning)"](/deep_learning/2018/04/02/Fine-Tuning-in-Keras.html).
 7. [Лекция "Анализ признаков, извлеченных нейросетью"](https://youtu.be/JCgwGD_FXbQ).
+8. [Лекция "Дополнение данных (Data Augmentation)"](https://youtu.be/mCHoMsner54).
 7. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 
 ### Анализ текстов с помощью глубоких нейронных сетей

@@ -17,10 +17,8 @@ redirect_from: /courses/hadoop
 6. [Основы параллельных вычислений](/assets/presentations/hpc_course/05-ParallelComputing.pdf).
 7. [Технология OpenMP](/assets/presentations/hpc_course/06-OpenMP.pdf).
 8. [Технология MPI](/assets/presentations/hpc_course/07-MPI.pdf).
-9. [MapReduce и Hadoop, часть 1](https://yadi.sk/i/cVwxkgplk48Gq).
-10. [MapReduce и Hadoop, часть 2](https://yadi.sk/i/LCT-aaq_k48NN).
-11. [Экосистема Hadoop](https://yadi.sk/i/XSkdXgu8k48Rj)
-12. [Apache Spark и Storm](https://yadi.sk/i/6TO_ZxcKk48TW)
+9. [MapReduce и Hadoop](/assets/presentations/hpc_course/08-MapReduce_Hadoop.pdf).
+10. [Apache Spark](/assets/presentations/hpc_course/09-ApacheSpark.pdf).
 
 ## Домашние задания
 

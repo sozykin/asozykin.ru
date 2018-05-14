@@ -48,7 +48,8 @@ permalink: /courses/networks_online
 ### Сетевой уровень
 
 1. [Лекция "Сетевой уровень"](https://youtu.be/Vm7UZvEgPT8).
-2. [Лекция "IP-адреса"](https://youtu.be/W87uM_VqicY).
+2. [Лекция "IP-адреса, часть 1"](https://youtu.be/Uj1XQgRXYOc).
+3. [Лекция "IP-адреса, часть 2"](https://youtu.be/hSnXwFE0dqU).
 3. [Лекция "Протокол IP"](https://youtu.be/b_Pv7FRLH0M).
 4. [Практика "Протокол IP"](https://youtu.be/nY7RksxUJ6U).
 5. [Лекция "Протокол IP: маршрутизация"](https://youtu.be/7cIiK3jbK0s).

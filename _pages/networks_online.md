@@ -31,7 +31,7 @@ permalink: /courses/networks_online
 
 ### Канальный уровень
 
-1. [Лекция "Канальный уровень"](https://youtu.be/JBM9TSBeo5Y).
+1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU).
 2. [Лекция "Технология Ethernet"](https://youtu.be/AtWcd_vCyUk).
 3. [Лекция "Технология Ethernet, часть 2"](https://youtu.be/GZo0-CHTteo).
 4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A).
@@ -47,7 +47,7 @@ permalink: /courses/networks_online
 
 ### Сетевой уровень
 
-1. [Лекция "Сетевой уровень"](https://youtu.be/Vm7UZvEgPT8).
+1. [Лекция "Сетевой уровень"](https://youtu.be/K-yvp1ti-QU).
 2. [Лекция "IP-адреса, часть 1"](https://youtu.be/Uj1XQgRXYOc).
 3. [Лекция "IP-адреса, часть 2"](https://youtu.be/hSnXwFE0dqU).
 3. [Лекция "Протокол IP"](https://youtu.be/b_Pv7FRLH0M).

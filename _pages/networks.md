@@ -21,6 +21,7 @@ permalink: /courses/networks
 ### Общие сведения о компьютерных сетях
 
 1. [Лекция "Классификация сетей"](https://youtu.be/Y4LK1OZ54h0).
+2. [Лекция "Топологии компьютерных сетей"](https://youtu.be/z8VmkYahV8M).
 2. [Лекция "Стандарты компьютерных сетей"](https://youtu.be/1dWCwQpqydU).
 3. [Лекция "Основы организации компьютерных сетей"](https://youtu.be/EPvxn9KvBvs).
 4. [Лекция "Модель OSI"](https://youtu.be/Tt8BTkxz_Vc).

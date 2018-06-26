@@ -46,7 +46,7 @@ permalink: /courses/nnpython
 4. [Лекция "Перенос обучения (Transfer Learning)"](/deep_learning/2018/01/08/Transfer-Learning-in-Keras.html).
 5. [Практика "Распознавание собак и кошек на изображениях"](/courses/nnpython-lab4).
 6. [Лекция "Тонкая настройка нейронной сети (Fine Tuning)"](/deep_learning/2018/04/02/Fine-Tuning-in-Keras.html).
-7. [Лекция "Анализ признаков, извлеченных нейросетью"](https://youtu.be/JCgwGD_FXbQ).
+7. [Лекция "Анализ признаков, извлеченных нейросетью"](/deep_learning/2018/06/26/Deep-Features-Analysis.html).
 8. [Лекция "Дополнение данных (Data Augmentation)"](https://youtu.be/mCHoMsner54).
 7. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 

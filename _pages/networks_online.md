@@ -14,36 +14,36 @@ permalink: /courses/networks_online
 
 Лекции и практики на Youtube в рекомендованной последовательности просмотра.
 
-1. [Вводное видео курса](https://youtu.be/OLFA0soYGhw).
+1. [Вводное видео курса](https://youtu.be/OLFA0soYGhw) ([презентация](/assets/pdf/networks/introduction.pdf)).
 
 ### Общие сведения о компьютерных сетях
 
-1. [Лекция "Классификация сетей"](https://youtu.be/Y4LK1OZ54h0).
-2. [Лекция "Топологии компьютерных сетей"](https://youtu.be/z8VmkYahV8M).
-2. [Лекция "Стандарты компьютерных сетей"](https://youtu.be/1dWCwQpqydU).
-3. [Лекция "Основы организации компьютерных сетей"](https://youtu.be/EPvxn9KvBvs).
-4. [Лекция "Модель OSI"](https://youtu.be/Tt8BTkxz_Vc).
-5. [Лекция "Модель и стек протоколов TCP/IP"](https://youtu.be/UZo4ffQ-aAc).
+1. [Лекция "Классификация сетей"](https://youtu.be/Y4LK1OZ54h0) ([презентация](/assets/pdf/networks/network_types.pdf)).
+2. [Лекция "Топологии компьютерных сетей"](https://youtu.be/z8VmkYahV8M) ([презентация](/assets/pdf/networks/network_topologies.pdf)).
+2. [Лекция "Стандарты компьютерных сетей"](https://youtu.be/1dWCwQpqydU) ([презентация](/assets/pdf/networks/network_standards.pdf)).
+3. [Лекция "Основы организации компьютерных сетей"](https://youtu.be/EPvxn9KvBvs) ([презентация](/assets/pdf/networks/network_layers.pdf)).
+4. [Лекция "Модель OSI"](https://youtu.be/Tt8BTkxz_Vc) ([презентация](/assets/pdf/networks/osi_model.pdf)).
+5. [Лекция "Модель и стек протоколов TCP/IP"](https://youtu.be/UZo4ffQ-aAc) ([презентация](/assets/pdf/networks/tcp-ip_stack.pdf)).
 6. [Практика "Анализатор сети Wireshark"](https://youtu.be/Cc5wi1bxmpc).
 
 ### Физический уровень
 
-1. [Лекция "Физический уровень"](https://youtu.be/yIf7hrgw8P4).
+1. [Лекция "Физический уровень"](https://youtu.be/yIf7hrgw8P4) ([презентация](/assets/pdf/networks/physical_layer.pdf)).
 
 ### Канальный уровень
 
-1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU).
+1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU) ([презентация](/assets/pdf/networks/data_link_layer.pdf)).
 2. [Лекция "Технология Ethernet"](https://youtu.be/AtWcd_vCyUk).
 3. [Лекция "Технология Ethernet, часть 2"](https://youtu.be/GZo0-CHTteo).
-4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A).
+4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A) ([презентация](/assets/pdf/networks/ethernet_switches.pdf)).
 5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
-6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc).
-7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec).
-8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M).
-9. [Практика "Wi-Fi джунгли"](https://youtu.be/IXkw5x9t3wg).
-10. [Лекция "Wi-Fi. Управление доступом к разделяемой среде"](https://youtu.be/9eWeUaHA_Us).
-11. [Лекция "Wi-Fi. Формат кадра"](https://youtu.be/nhhDsnQoWh0).
-12. [Лекция "Сервисы Wi-Fi"](https://youtu.be/FYAuqKjEpLs).
+6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc) ([презентация](/assets/pdf/networks/vlan.pdf)).
+7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec) ([презентация](/assets/pdf/networks/stp.pdf)).
+8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M) ([презентация](/assets/pdf/networks/wi-fi.pdf)).
+9. [Практика "Исследуем Wi-Fi"](https://youtu.be/IXkw5x9t3wg).
+10. [Лекция "Wi-Fi. Управление доступом к разделяемой среде"](https://youtu.be/9eWeUaHA_Us) ([презентация](/assets/pdf/networks/wi-fi_mac.pdf)).
+11. [Лекция "Wi-Fi. Формат кадра"](https://youtu.be/nhhDsnQoWh0) ([презентация](/assets/pdf/networks/wi-fi_frame.pdf)).
+12. [Лекция "Сервисы Wi-Fi"](https://youtu.be/FYAuqKjEpLs) ([презентация](/assets/pdf/networks/wi-fi_services.pdf)).
 
 
 ### Сетевой уровень
@@ -110,10 +110,6 @@ permalink: /courses/networks_online
 ### Заключение
 
 1. [Заключение](https://youtu.be/GnEuajcKU1U).
-
-## Презентации лекций
-
-[Презентации видеолекций](https://yadi.sk/d/I8TOPyldkM3oZ).
 
 ## Продвинутые темы 
 

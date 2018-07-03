@@ -48,22 +48,22 @@ permalink: /courses/networks_online
 
 ### Сетевой уровень
 
-1. [Лекция "Сетевой уровень"](https://youtu.be/K-yvp1ti-QU).
-2. [Лекция "IP-адреса, часть 1"](https://youtu.be/Uj1XQgRXYOc).
-3. [Лекция "IP-адреса, часть 2"](https://youtu.be/hSnXwFE0dqU).
-3. [Лекция "Протокол IP"](https://youtu.be/b_Pv7FRLH0M).
+1. [Лекция "Сетевой уровень"](https://youtu.be/K-yvp1ti-QU) ([презентация](/assets/pdf/networks/internet_layer.pdf)).
+2. [Лекция "IP-адреса, часть 1"](https://youtu.be/Uj1XQgRXYOc) ([презентация](/assets/pdf/networks/ip_addresses.pdf)).
+3. [Лекция "IP-адреса, часть 2"](https://youtu.be/hSnXwFE0dqU) ([презентация](/assets/pdf/networks/ip_addresses_p2.pdf)).
+3. [Лекция "Протокол IP"](https://youtu.be/b_Pv7FRLH0M) ([презентация](/assets/pdf/networks/ip_protocol.pdf)).
 4. [Практика "Протокол IP"](https://youtu.be/nY7RksxUJ6U).
-5. [Лекция "Протокол IP: маршрутизация"](https://youtu.be/kZqqk1tixfk).
-6. [Лекция "Протокол IP: фрагментация"](https://youtu.be/jbt1AKyJ4gw).
-7. [Лекция "Управляющие протоколы сетевого уровня"](https://youtu.be/s1fZQgV67yY).
-8. [Лекция "Протокол DHCP"](https://youtu.be/uZJ8WVdw-Ck).
+5. [Лекция "Протокол IP: маршрутизация"](https://youtu.be/kZqqk1tixfk) ([презентация](/assets/pdf/networks/routing.pdf)).
+6. [Лекция "Протокол IP: фрагментация"](https://youtu.be/jbt1AKyJ4gw) ([презентация](/assets/pdf/networks/ip_fragmentation.pdf)).
+7. [Лекция "Управляющие протоколы сетевого уровня"](https://youtu.be/s1fZQgV67yY) ([презентация](/assets/pdf/networks/network_management_protocols.pdf)).
+8. [Лекция "Протокол DHCP"](https://youtu.be/uZJ8WVdw-Ck) ([презентация](/assets/pdf/networks/dhcp_protocol.pdf)).
 9. [Практика "Протокол DHCP в Wireshark"](https://youtu.be/WaP4SZY0GJQ).
-10. [Лекция "Протокол ARP"](https://youtu.be/EZkkodleWqc).
+10. [Лекция "Протокол ARP"](https://youtu.be/EZkkodleWqc) ([презентация](/assets/pdf/networks/arp_protocol.pdf)).
 11. [Практика "Протокол ARP"](https://youtu.be/0UbLESURFwQ).
-12. [Лекция "Протокол ICMP"](https://youtu.be/9iG6ECpF-ko).
+12. [Лекция "Протокол ICMP"](https://youtu.be/9iG6ECpF-ko) ([презентация](/assets/pdf/networks/icmp_protocol.pdf)).
 13. [Практика "Протокол ICMP в Wireshark"](https://youtu.be/5S-4L0YUVDw).
 14. [Практика "Протокол ICMP, утилита traceroute"](https://youtu.be/TbsBhyyIth4).
-15. [Лекция "Передача пакетов на сетевом и канальном уровнях"](https://youtu.be/sHHg-Ni3eIU).
+15. [Лекция "Передача пакетов на сетевом и канальном уровнях"](https://youtu.be/sHHg-Ni3eIU) ([презентация](/assets/pdf/networks/packet_transfer.pdf)).
 
 ### Транспортный уровень
 

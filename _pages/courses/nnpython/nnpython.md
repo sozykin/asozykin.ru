@@ -48,6 +48,7 @@ permalink: /courses/nnpython
 6. [Лекция "Тонкая настройка нейронной сети (Fine Tuning)"](/deep_learning/2018/04/02/Fine-Tuning-in-Keras.html).
 7. [Лекция "Анализ признаков, извлеченных нейросетью"](/deep_learning/2018/06/26/Deep-Features-Analysis.html).
 8. [Лекция "Дополнение данных (Data Augmentation)"](https://youtu.be/mCHoMsner54).
+8. [Лекция "Визуализация сверточной нейронной сети"](/deep_learning/2018/07/10/CNN-Visualization.html).
 7. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
 
 ### Анализ текстов с помощью глубоких нейронных сетей

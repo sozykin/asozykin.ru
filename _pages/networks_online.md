@@ -67,22 +67,22 @@ permalink: /courses/networks_online
 
 ### Транспортный уровень
 
-1. [Лекция "Транспортный уровень"](https://youtu.be/g7vq-JVId58).
-2. [Лекция "Протокол UDP"](https://youtu.be/GBrLfZvRrd8).
-3. [Лекция "Протокол TCP"](https://youtu.be/CKUOb4htnB4).
+1. [Лекция "Транспортный уровень"](https://youtu.be/g7vq-JVId58) ([презентация](/assets/pdf/networks/transport_layer.pdf)).
+2. [Лекция "Протокол UDP"](https://youtu.be/GBrLfZvRrd8) ([презентация](/assets/pdf/networks/udp_protocol.pdf)).
+3. [Лекция "Протокол TCP"](https://youtu.be/CKUOb4htnB4) ([презентация](/assets/pdf/networks/tcp_protocol.pdf)).
 4. [Практика "Порты на транспортном уровне"](https://youtu.be/_7O9On9_TZE).
-5. [Лекция "Протокол TCP: скользящее окно"](https://youtu.be/hd6QNXK5rPk).
-6. [Лекция "Протокол TCP: соединение"](https://youtu.be/vt69HEbZ_pI).
-7. [Лекция "Протокол TCP: формат заголовка"](https://youtu.be/wP8iUpM5DHU).
+5. [Лекция "Протокол TCP: скользящее окно"](https://youtu.be/hd6QNXK5rPk) ([презентация](/assets/pdf/networks/tcp_sliding_window.pdf)).
+6. [Лекция "Протокол TCP: соединение"](https://youtu.be/vt69HEbZ_pI) ([презентация](/assets/pdf/networks/tcp_connection.pdf)).
+7. [Лекция "Протокол TCP: формат заголовка"](https://youtu.be/wP8iUpM5DHU) ([презентация](/assets/pdf/networks/tcp_header_format.pdf)).
 8. [Практика "Установка соединения в TCP"](https://youtu.be/REjQGkrREKg).
-9. [Лекция "Протокол TCP: управление потоком"](https://youtu.be/YCW4fLqFlME).
-10. [Лекция "Протокол TCP: управление перегрузкой"](https://youtu.be/lGUPQjvSMeo).
-11. [Лекция "Протокол TCP: управление перегрузкой, часть 2"](https://youtu.be/H6rMGYRKI2s).
-12. [Лекция "Интерфейс сокетов"](https://youtu.be/_vAjHdh92YU).
-13. [Лекция "Протоколы, интерфейсы и сервисы. Примеры"](https://youtu.be/VGcKWSqrjgE).
+9. [Лекция "Протокол TCP: управление потоком"](https://youtu.be/YCW4fLqFlME) ([презентация](/assets/pdf/networks/tcp_flow_control.pdf)).
+10. [Лекция "Протокол TCP: управление перегрузкой"](https://youtu.be/lGUPQjvSMeo) ([презентация](/assets/pdf/networks/tcp_congestion_control.pdf)).
+11. [Лекция "Протокол TCP: управление перегрузкой, часть 2"](https://youtu.be/H6rMGYRKI2s) ([презентация](/assets/pdf/networks/tcp_congestion_control2.pdf)).
+12. [Лекция "Интерфейс сокетов"](https://youtu.be/_vAjHdh92YU) ([презентация](/assets/pdf/networks/sockets.pdf)).
+13. [Лекция "Протоколы, интерфейсы и сервисы. Примеры"](https://youtu.be/VGcKWSqrjgE) ([презентация](/assets/pdf/networks/protocols_interfaces_services.pdf)).
 14. [Практика "Инкапсуляция"](https://youtu.be/qKuw2HJQVzk).
 15. [Лекция "Трансляция сетевых адресов (NAT)"](https://youtu.be/F7kCOa6PybQ).
-16. [Лекция "Межсетевые экраны"](https://youtu.be/9r6z9qggSIc) ([текст лекции](/computer_networks/2016/10/15/Firewalls.html)).
+16. [Лекция "Межсетевые экраны"](https://youtu.be/9r6z9qggSIc) ([презентация](/assets/pdf/networks/firewalls.pdf)), ([текст лекции](/computer_networks/2016/10/15/Firewalls.html)).
 
 ### Прикладной уровень
 

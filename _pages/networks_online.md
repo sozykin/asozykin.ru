@@ -33,8 +33,7 @@ permalink: /courses/networks_online
 ### Канальный уровень
 
 1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU) ([презентация](/assets/pdf/networks/data_link_layer.pdf)).
-2. [Лекция "Технология Ethernet"](https://youtu.be/AtWcd_vCyUk).
-3. [Лекция "Технология Ethernet, часть 2"](https://youtu.be/GZo0-CHTteo).
+2. [Лекция "Технология Ethernet"](https://youtu.be/5hllhU_5vtY) ([презентация](/assets/pdf/networks/ethernet.pdf)).
 4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A) ([презентация](/assets/pdf/networks/ethernet_switches.pdf)).
 5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
 6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc) ([презентация](/assets/pdf/networks/vlan.pdf)).

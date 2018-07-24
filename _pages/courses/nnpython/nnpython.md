@@ -50,6 +50,7 @@ permalink: /courses/nnpython
 8. [Лекция "Дополнение данных (Data Augmentation)"](https://youtu.be/mCHoMsner54).
 8. [Лекция "Визуализация сверточной нейронной сети"](/deep_learning/2018/07/10/CNN-Visualization.html).
 7. [Проект "Распознавание человека по лицу на фотографии"](/deep_learning/2017/08/11/Foto-Verification-with-Dlib.html).
+9. [Проект "Поиск объектов на изображениях"](/deep_learning/2018/07/24/Object-Detection-using-TensorFlow.html).
 
 ### Анализ текстов с помощью глубоких нейронных сетей
 

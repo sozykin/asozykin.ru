@@ -7,6 +7,8 @@ permalink: /publications/
 
 1. Antti Knutas, Ahmed Seffah, Lene Sorensen, Andrey Sozykin, Fawaz Al-Zaghoul, Alain Abran. [Crossing the Borders and the Cultural Gaps for Educating PhDs in Software Engineering](http://ieeexplore.ieee.org/document/8166713/) // 30th IEEE Conference on Software Engineering Education and Training (CSEE&T), At Savannah, USA. 2017.
 
+2. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Alexander Panfilov. [Simulation of Overdrive Pacing in 2D Phenomenological Models of Anisotropic Myocardium](https://www.sciencedirect.com/science/article/pii/S187705091732392X). Procedia Computer Science, Volume 119, 2017, Pages 245-254.
+
 1. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Alexander Panfilov. [Simulation of Overdrive Pacing in 2D Phenomenological Models of Anisotropic Myocardium](https://www.sciencedirect.com/science/article/pii/S187705091732392X) // Procedia Computer Science, Volume 119, 2017, Pages 245-254.
 
 1. Rodion Stepanov, Andrey Sozykin. [Distributed PIV Technology: Network Storage Usage](http://ceur-ws.org/Vol-1990/paper-14.pdf) // Proceedings of the 3rd Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists. CEUR Workshop Proceedings, Volume 1990, 2017. pp. 121-129.

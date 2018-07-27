@@ -85,25 +85,25 @@ permalink: /courses/networks_online
 
 ### Прикладной уровень
 
-1. [Лекция "Прикладной уровень"](https://youtu.be/l_MAOvAbYho).
-2. [Лекция "Система доменных имен DNS"](https://youtu.be/B0J0c0KLtbQ).
-3. [Лекция "Протокол DNS"](https://youtu.be/yAlm-jTneeY).
+1. [Лекция "Прикладной уровень"](https://youtu.be/l_MAOvAbYho) ([презентация](/assets/pdf/networks/application_layer.pdf)).
+2. [Лекция "Система доменных имен DNS"](https://youtu.be/B0J0c0KLtbQ) ([презентация](/assets/pdf/networks/dns.pdf)).
+3. [Лекция "Протокол DNS"](https://youtu.be/yAlm-jTneeY) ([презентация](/assets/pdf/networks/dns_protocol.pdf)).
 4. [Практика "Протокол DNS в Wireshark"](https://youtu.be/i6fh-kb4Qps).
-5. [Лекция "Типы записей DNS"](https://youtu.be/mvMYV0Hfig4).
+5. [Лекция "Типы записей DNS"](https://youtu.be/mvMYV0Hfig4) ([презентация](/assets/pdf/networks/dns_records.pdf)).
 6. [Практика "Типы записей DNS в Wireshark"](https://youtu.be/Ivg38bGTyAU).
 7. [Практика "DNS: итеративный и рекурсивный режим"](https://youtu.be/no9yc-BHaFA).
-8. [Лекция "Протокол HTTP"](https://youtu.be/RlccXUx4LVw).
-9. [Лекция "Постоянное соединение в HTTP"](https://youtu.be/7DitlqcesKI).
-10. [Лекция "Кэширование в HTTP"](https://youtu.be/esi6YZRvJzk).
+8. [Лекция "Протокол HTTP"](https://youtu.be/RlccXUx4LVw) ([презентация](/assets/pdf/networks/http_protocol.pdf)).
+9. [Лекция "Постоянное соединение в HTTP"](https://youtu.be/7DitlqcesKI) ([презентация](/assets/pdf/networks/http_keep_alive.pdf)).
+10. [Лекция "Кэширование в HTTP"](https://youtu.be/esi6YZRvJzk) ([презентация](/assets/pdf/networks/http_cache.pdf)).
 11. [Практика "HTTP в текстовом режиме"](https://youtu.be/F6RYInA9IdY).
-12. [Лекция "Электронная почта"](https://youtu.be/ocshYn2D_8g).
-13. [Лекция "Протокол SMTP"](https://youtu.be/xUTmwcSDvSE).
+12. [Лекция "Электронная почта"](https://youtu.be/ocshYn2D_8g) ([презентация](/assets/pdf/networks/email.pdf)).
+13. [Лекция "Протокол SMTP"](https://youtu.be/xUTmwcSDvSE) ([презентация](/assets/pdf/networks/smtp_protocol.pdf)).
 14. [Практика "SMTP в текстовом режиме"](https://youtu.be/dKZ35haWChM).
-15. [Лекция "Протокол POP3"](https://youtu.be/1swSSGvmnwU).
+15. [Лекция "Протокол POP3"](https://youtu.be/1swSSGvmnwU) ([презентация](/assets/pdf/networks/pop3_protocol.pdf)).
 16. [Практика "POP3 в текстовом режиме"](https://youtu.be/DsbsClavuyc).
-17. [Лекция "Протокол IMAP"](https://youtu.be/VGYHXIdtNS4).
+17. [Лекция "Протокол IMAP"](https://youtu.be/VGYHXIdtNS4) ([презентация](/assets/pdf/networks/imap_protocol.pdf)).
 18. [Практика "IMAP в текстовом режиме"](https://youtu.be/MRoyQjUfcxA).
-19. [Лекция "Протокол FTP"](https://youtu.be/Uji0sQ-Co7Q).
+19. [Лекция "Протокол FTP"](https://youtu.be/Uji0sQ-Co7Q) ([презентация](/assets/pdf/networks/ftp_protocol.pdf)).
 20. [Практика "FTP в Wireshark"](https://youtu.be/ZHNPG_2kCnQ).
 
 ### Заключение

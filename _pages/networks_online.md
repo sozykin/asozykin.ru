@@ -109,19 +109,19 @@ permalink: /courses/networks_online
 
 ### Заключение
 
-1. [Заключение](https://youtu.be/GnEuajcKU1U).
+1. [Заключение](https://youtu.be/GnEuajcKU1U) ([презентация](/assets/pdf/networks/conclusion.pdf)).
 
 ## Продвинутые темы 
 
 В этом разделе приведены продвинутые темы компьютерных сетей, которые рекомендуется изучать после освоения основного курса. Смотреть лекции можно в любой последовательности.
 
-1. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4).
-2. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg).
+1. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4) ([презентация](/assets/pdf/networks/ipv6_protocol.pdf)).
+2. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg) ([презентация](/assets/pdf/networks/ipv6_addresses.pdf)).
 3. [Практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
-4. [Лекция "Автоматическое назначение адресов IPv6"](https://youtu.be/GZTqZQVSY1A).
-5. [Лекция "Протокол NDP"](https://youtu.be/e50Xcxeol4E).
+4. [Лекция "Автоматическое назначение адресов IPv6"](https://youtu.be/GZTqZQVSY1A) ([презентация](/assets/pdf/networks/ipv6_autoconfiguration.pdf)).
+5. [Лекция "Протокол NDP"](https://youtu.be/e50Xcxeol4E) ([презентация](/assets/pdf/networks/ndp_protocol.pdf)).
 6. [Практика "Протокол NDP"](https://youtu.be/3Gxv7VRa8xQ).
-7. [Лекция "Протоколы маршрутизации"](https://youtu.be/MSg8gx3wnfQ).
+7. [Лекция "Протоколы маршрутизации"](https://youtu.be/MSg8gx3wnfQ) ([презентация](/assets/pdf/networks/routing_protocols.pdf)).
 
 ## Рекомендуемая литература
 

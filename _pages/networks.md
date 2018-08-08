@@ -37,6 +37,7 @@ permalink: /courses/networks
 1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU).
 2. [Лекция "Технология Ethernet"](https://youtu.be/5hllhU_5vtY).
 3. [Лекция "MAC адреса"](https://youtu.be/WcdwSJrTFA0).
+4. [Лекция "Ethernet. Метод доступа к разделяемой среде CSMA/CD"](https://youtu.be/s-uDMX4X2jQ).
 4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A).
 5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
 6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc).

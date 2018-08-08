@@ -35,13 +35,14 @@ permalink: /courses/networks_online
 1. [Лекция "Канальный уровень"](https://youtu.be/zYiKcbmBfgU) ([презентация](/assets/pdf/networks/data_link_layer.pdf)).
 2. [Лекция "Технология Ethernet"](https://youtu.be/5hllhU_5vtY) ([презентация](/assets/pdf/networks/ethernet.pdf)).
 3. [Лекция "MAC адреса"](https://youtu.be/WcdwSJrTFA0) ([презентация](/assets/pdf/networks/mac_addresses.pdf)).
+4. [Лекция "Ethernet. Метод доступа к разделяемой среде CSMA/CD"](https://youtu.be/s-uDMX4X2jQ) ([презентация](/assets/pdf/networks/ethernet_csmacd.pdf)).
 4. [Лекция "Коммутаторы Ethernet"](https://youtu.be/bdbsPC3b09A) ([презентация](/assets/pdf/networks/ethernet_switches.pdf)).
 5. [Практика "Канальный уровень в Wireshark"](https://youtu.be/HsPurrcG_9Y).
 6. [Лекция "VLAN"](https://youtu.be/Ig4WoXWzhNc) ([презентация](/assets/pdf/networks/vlan.pdf)).
 7. [Лекция "Протокол STP"](https://youtu.be/xtHlGmd94ec) ([презентация](/assets/pdf/networks/stp.pdf)).
 8. [Лекция "Wi-Fi"](https://youtu.be/pXG-4L2Hn9M) ([презентация](/assets/pdf/networks/wi-fi.pdf)).
 9. [Практика "Исследуем Wi-Fi"](https://youtu.be/IXkw5x9t3wg).
-10. [Лекция "Wi-Fi. Управление доступом к разделяемой среде"](https://youtu.be/9eWeUaHA_Us) ([презентация](/assets/pdf/networks/wi-fi_mac.pdf)).
+10. [Лекция "Wi-Fi. Метод доступа к разделяемой среде CSMA/CA"](https://youtu.be/9eWeUaHA_Us) ([презентация](/assets/pdf/networks/wi-fi_mac.pdf)).
 11. [Лекция "Wi-Fi. Формат кадра"](https://youtu.be/nhhDsnQoWh0) ([презентация](/assets/pdf/networks/wi-fi_frame.pdf)).
 12. [Лекция "Сервисы Wi-Fi"](https://youtu.be/FYAuqKjEpLs) ([презентация](/assets/pdf/networks/wi-fi_services.pdf)).
 

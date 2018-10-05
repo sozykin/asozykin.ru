@@ -56,6 +56,12 @@ permalink: /courses/nnpython
 
 Новый раздел, скоро будут подготовлены материалы.
 
+### Особенности работы Keras
+
+1. [Обзор возможностей Keras](https://youtu.be/LJyYFW7p5tk).
+2. [Визуализация качества обучения нейросети](https://youtu.be/fBO3CyfvEj8).
+3. [Сохранение нейросети в процессе обучения](https://youtu.be/vLnBMM-DAYY).
+
 ## Необходимое программное обеспечение
 
 Используется библиотека [Keras](https://keras.io/), а также [TensorFlow](https://www.tensorflow.org/) или [Theano](http://deeplearning.net/software/theano/) в качестве вычислительного бэкенда. Все библиотеки распространяются бесплатно. 

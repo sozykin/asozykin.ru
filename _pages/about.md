@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Работа
 
-1. [Банк Точка](https://tochka.com). Программист (большие данные, машинное обучение), Scrum Master. 
+1. [Банк Точка](https://tochka.com). Разработчик (большие данные, машинное обучение). 
 2. Сертифицированный преподаватель [NVIDIA Deep Learning Institute](http://www.nvidia.ru/dli).
 
 ![NVIDIA Deep Learning Institute Certified Instructor](/assets/images/dlici.png)
@@ -19,8 +19,7 @@ permalink: /about/
 
 1. Машинное обучение, в первую очередь [глубокие нейронные сети](/courses/nnpython).
 2. Большие данные (Spark, Hadoop и т.п.).
-3. Разработка продуктов с использованием Scrum.
-4. Образование в области Data Science и Big Data.
+3. Образование в области Data Science и Big Data.
 
 ## Спорт
 

@@ -53,8 +53,6 @@ nb_classes = 10
 nb_epoch = 25
 # Размер изображений
 img_rows, img_cols = 32, 32
-# Количество каналов в изображении: RGB
-img_channels = 3
 
 # Нормализуем данные
 X_train = X_train.astype('float32')

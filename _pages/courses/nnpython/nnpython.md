@@ -60,7 +60,8 @@ permalink: /courses/nnpython
 
 1. [Обзор возможностей Keras](https://youtu.be/LJyYFW7p5tk).
 2. [Визуализация качества обучения нейросети](https://youtu.be/fBO3CyfvEj8).
-3. [Сохранение нейросети в процессе обучения](https://youtu.be/vLnBMM-DAYY).
+3. [Сохранение нейросети в процессе обучения](/deep_learning/2018/10/25/Keras-ModelCheckpoint-Callback.html).
+4. [Остановка обучения нейросети при переобучении](/deep_learning/2018/10/16/Keras-Early-Stopping-Callback.html).
 
 ## Необходимое программное обеспечение
 

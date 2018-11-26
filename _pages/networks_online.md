@@ -123,6 +123,10 @@ permalink: /courses/networks_online
 5. [Лекция "Протокол NDP"](https://youtu.be/e50Xcxeol4E) ([презентация](/assets/pdf/networks/ndp_protocol.pdf)).
 6. [Практика "Протокол NDP"](https://youtu.be/3Gxv7VRa8xQ).
 7. [Лекция "Протоколы маршрутизации"](https://youtu.be/MSg8gx3wnfQ) ([презентация](/assets/pdf/networks/routing_protocols.pdf)).
+7. [Лекция "Протокол маршрутизации RIP"](https://youtu.be/LhvQoTsndRs) ([презентация](/assets/pdf/networks/rip.pdf)).
+7. [Лекция "Протокол маршрутизации OSPF"](https://youtu.be/rDPF5LZiyOw) ([презентация](/assets/pdf/networks/ospf.pdf)).
+7. [Лекция "Иерархическая маршрутизация"](https://youtu.be/InXbCKWw2xo) ([презентация](/assets/pdf/networks/hierarchical_routing.pdf)).
+
 
 ## Рекомендуемая литература
 

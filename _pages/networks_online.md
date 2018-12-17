@@ -126,6 +126,7 @@ permalink: /courses/networks_online
 7. [Лекция "Протокол маршрутизации RIP"](https://youtu.be/LhvQoTsndRs) ([презентация](/assets/pdf/networks/rip.pdf)).
 7. [Лекция "Протокол маршрутизации OSPF"](https://youtu.be/rDPF5LZiyOw) ([презентация](/assets/pdf/networks/ospf.pdf)).
 7. [Лекция "Иерархическая маршрутизация"](https://youtu.be/InXbCKWw2xo) ([презентация](/assets/pdf/networks/hierarchical_routing.pdf)).
+7. [Лекция "Протокол BGP"](https://youtu.be/ujH-wotkWls) ([презентация](/assets/pdf/networks/bgp_protocol.pdf)).
 
 
 ## Рекомендуемая литература

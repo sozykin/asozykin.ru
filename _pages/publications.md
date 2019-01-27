@@ -3,13 +3,13 @@ layout: page
 title: Публикации
 permalink: /publications/
 ---
-[ORCID](http://orcid.org/0000-0002-5018-9433), ResearcherID: [F-1688-2017](http://www.researcherid.com/rid/F-1688-2017), Scopus Author ID: [57023976400](http://www.scopus.com/inward/authorDetails.url?authorID=57023976400&partnerID=MN8TOARS).
+[ORCID](http://orcid.org/0000-0002-5018-9433), ResearcherID: [F-1688-2017](http://www.researcherid.com/rid/F-1688-2017), Scopus Author ID: [57198744429](https://www.scopus.com/authid/detail.uri?authorId=57198744429&partnerID=MN8TOARS).
+
 
 1. Antti Knutas, Ahmed Seffah, Lene Sorensen, Andrey Sozykin, Fawaz Al-Zaghoul, Alain Abran. [Crossing the Borders and the Cultural Gaps for Educating PhDs in Software Engineering](http://ieeexplore.ieee.org/document/8166713/) // 30th IEEE Conference on Software Engineering Education and Training (CSEE&T), At Savannah, USA. 2017.
 
 2. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Alexander Panfilov. [Simulation of Overdrive Pacing in 2D Phenomenological Models of Anisotropic Myocardium](https://www.sciencedirect.com/science/article/pii/S187705091732392X). Procedia Computer Science, Volume 119, 2017, Pages 245-254.
 
-1. Timofei Epanchintsev, Sergei Pravdin, Andrey Sozykin, Alexander Panfilov. [Simulation of Overdrive Pacing in 2D Phenomenological Models of Anisotropic Myocardium](https://www.sciencedirect.com/science/article/pii/S187705091732392X) // Procedia Computer Science, Volume 119, 2017, Pages 245-254.
 
 1. Rodion Stepanov, Andrey Sozykin. [Distributed PIV Technology: Network Storage Usage](http://ceur-ws.org/Vol-1990/paper-14.pdf) // Proceedings of the 3rd Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists. CEUR Workshop Proceedings, Volume 1990, 2017. pp. 121-129.
 
@@ -24,13 +24,8 @@ permalink: /publications/
 4. Sozykin, A.,  Pravdin, S.,  Koshelev, A.,  Zverev, V.,  Ushenin, K.,  Solovyova, O. [LeVen - a parallel system for simulation of the heart left ventricle](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7338556) // Proceedings of 9th IEEE International Conference on Application of Information and Communication Technologies, AICT 2015. Article number 7338556, Pages 249-252.
 5. Epanchintsev, T.,  Sozykin, A. [Processing large amounts of images on hadoop with OpenCV](http://ceur-ws.org/Vol-1513/paper-14.pdf) // Proceedings of 1st Ural Workshop on Parallel, Distributed, and Cloud Computing for Young Scientists, Ural-PDC 2015; Yekaterinburg; Russian Federation. CEUR Workshop Proceedings, volume 1513, 2015, pages 137-143.
 6. Sozykin, A.,  Epanchintsev, T. [MIPr - a framework for distributed image processing using Hadoop](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7338511) // / Proceedings of 9th IEEE International Conference on Application of Information and Communication Technologies, AICT 2015. Article number 7338511, Pages 35-39.
-7. М.Л.Гольдштейн, А.В.Созыкин.  Концептуальная модель и прототип ГРИД УрО РАН // Системы управления и информационные технологии.- 2012.- № 3.1(49). – С.132-136.
 8. А.В. Созыкин, М.Л. Гольдштейн. [Система обработки изображений с автоматическим распараллеливанием на основе MapReduce](http://mmp.vestnik.susu.ru/pdf/286/11.pdf) // Вестник Южно-Уральского государственного университета. Серия «Математическое моделирование и программирование», № 27, 2012. с. 109-118.
-9. Созыкин А.В., Гольдштейн М.Л., Черноскутов М.А. [Система оперативного мониторинга температуры и энергопотребления суперкомпьютера «УРАН»](http://www.swsys.ru/print/article_print.php?id=2930) // Программные продукты и системы, 2011, № 4.
-10. Созыкин А.В., Гольдштейн М.Л. Методика семантической интеграции управления доступа к сетевым сервисам // Научно-технический журнал «Системы управления и информационные технологии», 2010, №3 (41). — С. 49-53.
-11. Созыкин А.В., Гольдштейн М.Л. Управление доступом к сервисам информационно-вычислительного пространства УрО РАН // Проблемы теории и практики управления, 2010, № 9. c. 50-54.
-12. Созыкин А.В., Масич Г.Ф., Бездушный А.Н., Бобров А.В., Босов А.В., Масич А.Г. Онтология управления доступом к сервисам // Наукоемкие технологии, 2008,  №11. С. 34-43.
-13. Созыкин А.В. Модели и методы создания интегрированной инфраструктуры управления доступом к сервисам // Научно-технический журнал «Системы управления и информационные технологии», 2007, №4.1(30). — С. 191-195.
+
 
 ## Диссертация
 

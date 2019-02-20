@@ -81,9 +81,17 @@ permalink: /courses/nnpython
 
 Полные тексты программы есть в [репозитории курса на GitHub](https://github.com/sozykin/dlpython_course).
 
+## Работа с платформой Google Colaboratory
+
+1. [Основы работы с Google Colaboratory](/deep_learning/2018/04/04/Google-Colaboratory-for-Deep-Learning.html).
+2. [Использование команд Linux в Colab](/deep_learning/2019/02/18/Colab-Linux-Commands.html).
+3. [Использование бесплатных тензорных процессоров TPU в Colab](https://habr.com/ru/post/428117/).
+4. [Участвуем в соревнованиях на Kaggle с помощью Colab](/deep_learning/2017/05/10/MNIST-On-Kaggle.html).
+
 ## Дополнительные материалы
 
 1. [Математика глубоких нейронных сетей](/deep_learning/2017/08/31/Math-of-Deep-Learning.html). Список книг и статей для тех, кто хочет разобраться с математическими основами глубоких нейронных сетей.
+2. [Функция активации SoftMax](/deep_learning/2018/10/26/Softmax-Function.html). В статье описано, почему именно softmax лучше всего подходит для задач классификации.
 
 ## Как помочь
 

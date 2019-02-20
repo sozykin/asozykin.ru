@@ -82,7 +82,7 @@ permalink: /courses/networks_online
 12. [Лекция "Интерфейс сокетов"](https://youtu.be/_vAjHdh92YU) ([презентация](/assets/pdf/networks/sockets.pdf)).
 13. [Лекция "Протоколы, интерфейсы и сервисы. Примеры"](https://youtu.be/VGcKWSqrjgE) ([презентация](/assets/pdf/networks/protocols_interfaces_services.pdf)).
 14. [Практика "Инкапсуляция"](https://youtu.be/qKuw2HJQVzk).
-15. [Лекция "Трансляция сетевых адресов (NAT)"](https://youtu.be/F7kCOa6PybQ) ([презентация](/assets/pdf/networks/nat.pdf)).
+15. [Лекция "Трансляция сетевых адресов (NAT)"](https://youtu.be/L1JtmAiSaFQ) ([презентация](/assets/pdf/networks/nat.pdf)).
 16. [Лекция "Межсетевые экраны"](https://youtu.be/9r6z9qggSIc) ([презентация](/assets/pdf/networks/firewalls.pdf)), ([текст лекции](/computer_networks/2016/10/15/Firewalls.html)).
 
 ### Прикладной уровень

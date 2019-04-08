@@ -12,6 +12,8 @@ permalink: /contacts/
 
 [ВКонтакте](https://vk.com/avsozykin)
 
+[Twitter](https://twitter.com/AndreySozykin)
+
 [LinkedIn](https://ru.linkedin.com/in/asozykin)
 
 [YouTube](https://www.youtube.com/channel/UC5gufuYHPSsJA-jul-iwyXA)

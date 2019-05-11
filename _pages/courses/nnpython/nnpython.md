@@ -29,7 +29,7 @@ permalink: /courses/nnpython
 4. [Лекция "Библиотеки для глубокого обучения"](https://youtu.be/9xfPb2hiqNY).
 5. [Лекция "Распознавание предметов одежды"](https://youtu.be/GKpVjx_b1Z4).
 6. [Лекция "Анализ качества обучения нейронной сети"](https://youtu.be/d2avot3QAZE).
-7. [Практическая работа "Распознование рукописных цифр из набора данных MNIST на Keras"](/courses/nnpython-lab1) ([ноутбук в Colaboratory](https://drive.google.com/file/d/11OmSvPZvkEiALlLhMJRo0kgHUv1mpepf/view?usp=sharing)).
+7. [Практическая работа "Распознавание предметов одежды на Keras"](/courses/nnpython-lab1) ([ноутбук в Colaboratory](https://colab.research.google.com/drive/1AE_W9QOLoFrPsoihVqZtY5YMWtrPr80C)).
 7. [Лекция "Решение задачи регрессии"](https://youtu.be/hgvnvWCoDYo) ([ноутбук в Colaboratory](https://drive.google.com/file/d/1F5EoQmzHJ9GIxIFHi6AxBhBwpTvbJWa0/view?usp=sharing)).
 8. [Лекция "Сохранение обученной нейронной сети"](/deep_learning/2017/02/12/How-to-save-trained-deep-net.html).
 9. [Лекция "Сверточные нейронные сети"](https://youtu.be/52U4BG0ENiM).

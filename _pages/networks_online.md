@@ -116,6 +116,7 @@ permalink: /courses/networks_online
 
 В этом разделе приведены продвинутые темы компьютерных сетей, которые рекомендуется изучать после освоения основного курса. Смотреть лекции можно в любой последовательности.
 
+1. [Лекция "Web сокеты"](https://youtu.be/TxVriqBkqbM) ([презентация](/assets/pdf/networks/websockets.pdf)).
 1. [Лекция "Протокол IPv6"](https://youtu.be/Y4l8ScRLrf4) ([презентация](/assets/pdf/networks/ipv6_protocol.pdf)).
 2. [Лекция "Адреса IPv6"](https://youtu.be/KRAKAAJTxTg) ([презентация](/assets/pdf/networks/ipv6_addresses.pdf)).
 3. [Практика "Протокол IPv6"](https://youtu.be/xCEiYBmEh38).
